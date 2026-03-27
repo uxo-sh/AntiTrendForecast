@@ -67,6 +67,7 @@ public partial class App : Application
 
         // Layer 2 - Orchestration
         services.AddSingleton<IPivotScoreCalculator, PivotScoreCalculator>();
+        services.AddSingleton<ITrendSynthesizer, TrendSynthesizer>();
         services.AddSingleton<IFatigueAnalyzer, FatigueAnalyzer>();
 
         // Layer 3 - Execution

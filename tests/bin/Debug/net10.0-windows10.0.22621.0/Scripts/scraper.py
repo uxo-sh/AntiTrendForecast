@@ -23,25 +23,34 @@ def get_hacker_news_trends(keyword):
         response = requests.get(search_url, timeout=10) # 10s internal timeout
         
         data = response.json()
+        nb_hits = data.get("nbHits", 0)
         hits = data.get("hits", [])
 
-        if not hits:
+        if nb_hits == 0:
             return get_mock_result(keyword, "No direct HN matches found - using simulated fatigue estimate")
 
-        mentions = len(hits)
-        total_score = sum(hit.get("points", 0) for hit in hits)
+        # nbHits is the total number of matches across all of HN
+        # This gives us a much better 'Fatigue' resolution than just the current page
+        # nbHits is the total number of matches across all of HN
+        # This gives us a much better 'Fatigue' resolution than just the current page
+        mentions = nb_hits
         
-        # Calculate fatigue metrics
-        # If many hits are found quickly with high points, it suggests peak hype.
-        sentiment = 0.1 
-        growth = (total_score / 2000.0) - 0.5 
+        # Sentiment based on density of points (Hype density)
+        # High points per hit usually means more 'hype' - we want this to influence the score
+        avg_points = sum(hit.get("points", 0) for hit in hits) / len(hits) if hits else 0
+        sentiment = min(avg_points / 300.0, 1.0) # 0 to 1 scale
+        
+        # Growth: Relative volume compared to a 'saturation floor'
+        # Logarithmic scale works best for extreme ranges like HN nbHits
+        import math
+        growth = math.log10(nb_hits) / 6.0 - 0.5 # Normalizing log10(1,000,000) around 0.5
 
         return {
             "keyword": keyword,
-            "mentions": mentions * 20, # Scale for visualization
+            "mentions": mentions,
             "sentiment_score": sentiment,
             "growth_rate": growth,
-            "source": f"HackerNews Algolia API ({len(hits)} hits)"
+            "source": f"HackerNews Index ({nb_hits} total hits)"
         }
 
     except Exception as e:

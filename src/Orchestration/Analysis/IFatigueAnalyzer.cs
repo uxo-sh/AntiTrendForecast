@@ -11,7 +11,8 @@ public record FatigueResult(
     string SaturationLevel, 
     string RawJson,
     double PivotScore = 0,
-    string HistoricalTrend = "N/A");
+    string HistoricalTrend = "N/A",
+    double ConfidenceScore = 0);
 
 /// <summary>
 /// Interface for analyzing market fatigue from raw scraper data.

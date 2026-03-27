@@ -10,7 +10,10 @@ public interface ITrendInputHandler
     /// <summary>
     /// Processes a single trend keyword through the 3-layer pipeline.
     /// </summary>
-    /// <param name="keyword">The keyword to analyze.</param>
-    /// <returns>A FatigueResult containing the analysis outcome.</returns>
     Task<FatigueResult> ProcessTrendAsync(string keyword);
+
+    /// <summary>
+    /// Gets the most recently analyzed unique keywords.
+    /// </summary>
+    Task<IEnumerable<string>> GetRecentKeywordsAsync();
 }

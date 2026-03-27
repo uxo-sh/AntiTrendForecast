@@ -70,7 +70,13 @@ public class TrendRepository : ITrendRepository
     public async Task<IEnumerable<string>> GetRecentKeywordsAsync(int limit = 20)
     {
         using var connection = new SqliteConnection(_connectionString);
-        const string sql = "SELECT DISTINCT Keyword FROM Trends ORDER BY ScrapedAt DESC LIMIT @limit";
+        // Get the latest unique keywords by looking at the max ScrapedAt for each
+        const string sql = @"
+            SELECT Keyword 
+            FROM Trends 
+            GROUP BY Keyword 
+            ORDER BY MAX(ScrapedAt) DESC 
+            LIMIT @limit";
         return await connection.QueryAsync<string>(sql, new { limit });
     }
 }

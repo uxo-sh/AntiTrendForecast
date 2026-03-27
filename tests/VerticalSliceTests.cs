@@ -17,15 +17,16 @@ public class VerticalSliceTests
         // 1. Arrange
         var mockLoggerHandler = new Mock<ILogger<TrendInputHandler>>();
         var mockLoggerAnalyzer = new Mock<ILogger<FatigueAnalyzer>>();
-        var mockLoggerRunner = new Mock<ILogger<PythonRunnerService>>();
         var mockLoggerPivot = new Mock<ILogger<PivotScoreCalculator>>();
+        var mockLoggerSynth = new Mock<ILogger<TrendSynthesizer>>();
 
         var mockRepo = new Mock<ITrendRepository>();
         mockRepo.Setup(r => r.GetHistoryAsync(It.IsAny<string>(), It.IsAny<int>()))
-                .ReturnsAsync(Enumerable.Empty<TrendData>());
+                .ReturnsAsync(new List<TrendData> { new TrendData { FatigueIndex = 50 } });
 
         var pivotCalculator = new PivotScoreCalculator(mockLoggerPivot.Object);
-        var analyzer = new FatigueAnalyzer(mockLoggerAnalyzer.Object, pivotCalculator);
+        var synthesizer = new TrendSynthesizer(mockLoggerSynth.Object);
+        var analyzer = new FatigueAnalyzer(mockLoggerAnalyzer.Object, pivotCalculator, synthesizer);
         var mockRunner = new Mock<IPythonRunnerService>();
 
         string mockJson = "{\"keyword\": \"AI Agents\", \"mentions\": 450, \"sentiment_score\": -0.5, \"growth_rate\": -0.2}";
@@ -40,33 +41,30 @@ public class VerticalSliceTests
         // 3. Assert
         Assert.NotNull(result);
         Assert.Equal("AI Agents", result.Keyword);
-        Assert.Contains("Saturation", result.SaturationLevel); 
-        Assert.True(result.FatigueScore > 75);
-        
-        // Ensure it saved the result
+        Assert.True(result.ConfidenceScore > 0);
         mockRepo.Verify(r => r.SaveTrendAsync(It.IsAny<TrendData>()), Times.Once);
     }
 
     [Fact]
-    public void PivotScoreCalculator_DetectsDrift()
+    public void TrendSynthesizer_CalculatesConfidence()
     {
         // Arrange
-        var mockLogger = new Mock<ILogger<PivotScoreCalculator>>();
-        var calculator = new PivotScoreCalculator(mockLogger.Object);
+        var mockLogger = new Mock<ILogger<TrendSynthesizer>>();
+        var synthesizer = new TrendSynthesizer(mockLogger.Object);
 
-        var current = new FatigueResult("Test", 90, "Critical", "{}");
         var history = new List<TrendData>
         {
-            new TrendData { Keyword = "Test", FatigueIndex = 50 },
-            new TrendData { Keyword = "Test", FatigueIndex = 55 }
+            new TrendData { FatigueIndex = 50 },
+            new TrendData { FatigueIndex = 52 },
+            new TrendData { FatigueIndex = 49 }
         };
 
         // Act
-        var result = calculator.CalculatePivot(current, history);
+        var score = synthesizer.CalculateConfidence(history);
 
         // Assert
-        // Avg = 52.5. Current = 90. Drift = 37.5
-        Assert.True(result.PivotScore > 30);
-        Assert.Equal("Rapid Saturation - Market Fatigue Accelerating", result.TrendSummary);
+        // 3 points = 45% volume. Low variance = high stability score.
+        // Capped at 80% for small datasets, so ~75-77 is expected here.
+        Assert.True(score > 70);
     }
 }

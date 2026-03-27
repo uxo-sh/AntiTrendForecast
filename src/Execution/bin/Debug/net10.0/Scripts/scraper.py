@@ -31,15 +31,19 @@ def get_hacker_news_trends(keyword):
 
         # nbHits is the total number of matches across all of HN
         # This gives us a much better 'Fatigue' resolution than just the current page
+        # nbHits is the total number of matches across all of HN
+        # This gives us a much better 'Fatigue' resolution than just the current page
         mentions = nb_hits
         
-        # Calculate a pseudo-sentiment based on the average points per hit
-        # High points per hit usually means more 'hype' or 'controversy'
+        # Sentiment based on density of points (Hype density)
+        # High points per hit usually means more 'hype' - we want this to influence the score
         avg_points = sum(hit.get("points", 0) for hit in hits) / len(hits) if hits else 0
-        sentiment = 1.0 - (min(avg_points, 500) / 500.0)
+        sentiment = min(avg_points / 300.0, 1.0) # 0 to 1 scale
         
-        # Growth is high if hits are recent (simulated for now by checking hits count stability)
-        growth = (nb_hits / 10000.0) - 0.5 # Normalized center at 5000 hits
+        # Growth: Relative volume compared to a 'saturation floor'
+        # Logarithmic scale works best for extreme ranges like HN nbHits
+        import math
+        growth = math.log10(nb_hits) / 6.0 - 0.5 # Normalizing log10(1,000,000) around 0.5
 
         return {
             "keyword": keyword,

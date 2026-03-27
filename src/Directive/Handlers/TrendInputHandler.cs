@@ -63,4 +63,9 @@ public class TrendInputHandler : ITrendInputHandler
             throw; 
         }
     }
+
+    public async Task<IEnumerable<string>> GetRecentKeywordsAsync()
+    {
+        return await _trendRepository.GetRecentKeywordsAsync();
+    }
 }

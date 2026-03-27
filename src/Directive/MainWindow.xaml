@@ -6,10 +6,10 @@
         xmlns:local="clr-namespace:AntiTrendForecast.Directive"
         mc:Ignorable="d"
         Title="Anti-Trend Forecast Engine - Market Fatigue Dashboard" 
-        Height="600" Width="600"
+        Height="650" Width="850"
         Background="#F5F5F7">
 
-    <Grid x:Name="RootGrid" Margin="32">
+    <Grid x:Name="RootGrid">
         <Grid.Resources>
             <local:InverseBooleanConverter x:Key="InverseBooleanConverter" />
             <local:StringToVisibilityConverter x:Key="StringToVisibilityConverter" />
@@ -20,112 +20,159 @@
                 <Setter Property="Foreground" Value="#1D1D1F"/>
             </Style>
 
-            <Style TargetType="TextBlock" x:Key="SubtitleStyle">
-                <Setter Property="FontSize" Value="16"/>
-                <Setter Property="FontWeight" Value="SemiBold"/>
+            <Style TargetType="TextBlock" x:Key="SidebarHeaderStyle">
+                <Setter Property="FontSize" Value="12"/>
+                <Setter Property="FontWeight" Value="Bold"/>
                 <Setter Property="Foreground" Value="#86868B"/>
+                <Setter Property="Margin" Value="0,0,0,10"/>
             </Style>
         </Grid.Resources>
 
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="220"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
 
-        <!-- Header -->
-        <TextBlock Grid.Row="0"
-                   Text="📉 Anti-Trend Forecast Engine"
-                   Style="{StaticResource TitleStyle}"
-                   HorizontalAlignment="Center"
-                   Margin="0,0,0,24"/>
+        <!-- Left Sidebar: Recent Analyses -->
+        <Border Grid.Column="0" Background="#EBEBEF" BorderBrush="#DDD" BorderThickness="0,0,1,0" Padding="20">
+            <StackPanel>
+                <TextBlock Text="RECENT ANALYSES" Style="{StaticResource SidebarHeaderStyle}"/>
+                <ItemsControl ItemsSource="{Binding RecentKeywords}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Button Content="{Binding}" 
+                                    Command="{Binding DataContext.SelectKeywordCommand, RelativeSource={RelativeSource AncestorType=Window}}"
+                                    CommandParameter="{Binding}"
+                                    Margin="0,0,0,5"
+                                    Padding="10,5"
+                                    HorizontalContentAlignment="Left"
+                                    Background="Transparent"
+                                    BorderThickness="0"
+                                    Cursor="Hand">
+                                <Button.Style>
+                                    <Style TargetType="Button">
+                                        <Setter Property="Foreground" Value="#1D1D1F"/>
+                                        <Style.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter Property="Foreground" Value="#0071E3"/>
+                                            </Trigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Button.Style>
+                            </Button>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </Border>
 
-        <!-- Search Input -->
-        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
-            <TextBox x:Name="KeywordInput"
-                      Text="{Binding Keyword, UpdateSourceTrigger=PropertyChanged}"
-                      Padding="8"
-                      FontSize="14"
-                      VerticalContentAlignment="Center"
-                      Width="350"
-                      Margin="0,0,12,0"/>
-            
-            <Button x:Name="AnalyzeButton"
-                    Content="Analyze"
-                    Padding="16,8"
-                    Background="Black"
-                    Foreground="White"
-                    FontWeight="Bold"
-                    Cursor="Hand"
-                    IsEnabled="{Binding IsAnalyzing, Converter={StaticResource InverseBooleanConverter}}"
-                    Click="OnAnalyzeClicked"/>
-        </StackPanel>
+        <!-- Main Dashboard Area -->
+        <Grid Grid.Column="1" Margin="32">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
 
-        <!-- Results Area -->
-        <StackPanel Grid.Row="2" Margin="0,32,0,0">
-            <TextBlock x:Name="StatusText"
-                       Text="{Binding StatusMessage}"
-                       Style="{StaticResource SubtitleStyle}"
+            <!-- Header -->
+            <TextBlock Grid.Row="0"
+                       Text="📉 Anti-Trend Forecast Engine"
                        HorizontalAlignment="Center"
-                       TextWrapping="Wrap"
-                       TextAlignment="Center"
+                       FontSize="24" FontWeight="Bold" Foreground="#1D1D1F"
                        Margin="0,0,0,24"/>
 
-            <!-- Saturation Result -->
-            <StackPanel Visibility="{Binding SaturationLevel, Converter={StaticResource StringToVisibilityConverter}}"
-                        HorizontalAlignment="Center">
+            <!-- Search Input -->
+            <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBox x:Name="KeywordInput"
+                          Text="{Binding Keyword, UpdateSourceTrigger=PropertyChanged}"
+                          Padding="8"
+                          FontSize="14"
+                          VerticalContentAlignment="Center"
+                          Width="300"
+                          Margin="0,0,12,0"/>
                 
-                <TextBlock Text="Market Analysis Overview" 
-                           Style="{StaticResource SubtitleStyle}" 
-                           HorizontalAlignment="Center"
-                           FontSize="14"/>
-
-                <!-- Metrics Grid -->
-                <UniformGrid Rows="1" Columns="2" Margin="0,15,0,0" Width="420">
-                    <Border Background="White" CornerRadius="8" Padding="15" Margin="5" BorderBrush="#DDD" BorderThickness="1">
-                        <StackPanel>
-                            <TextBlock Text="FATIGUE" Foreground="#888" FontSize="10" FontWeight="Bold"/>
-                            <TextBlock Text="{Binding SaturationScore}" Foreground="#E74C3C" FontSize="28" FontWeight="Bold"/>
-                        </StackPanel>
-                    </Border>
-                    <Border Background="White" CornerRadius="8" Padding="15" Margin="5" BorderBrush="#DDD" BorderThickness="1">
-                        <StackPanel>
-                            <TextBlock Text="PIVOT DRIFT" Foreground="#888" FontSize="10" FontWeight="Bold"/>
-                            <TextBlock Text="{Binding PivotScore}" Foreground="#3498DB" FontSize="28" FontWeight="Bold"/>
-                        </StackPanel>
-                    </Border>
-                </UniformGrid>
-
-                <TextBlock Text="{Binding SaturationLevel}" 
-                           FontSize="18"
-                           FontWeight="Bold"
-                           Foreground="#1D1D1F"
-                           HorizontalAlignment="Center"
-                           Margin="0,15,0,5"/>
-
-                <ProgressBar Value="{Binding SaturationScore}" 
-                              Maximum="100" 
-                              Width="410" 
-                              Height="8"
-                              Margin="0,5,0,15"
-                              Foreground="#0071E3"
-                              Background="#E5E5E7"
-                              BorderThickness="0"/>
-
-                <!-- Pivot Insight -->
-                <Border Background="#1D1D1F" CornerRadius="10" Padding="20" Width="410">
-                    <StackPanel>
-                        <TextBlock Text="PIVOT INTELLIGENCE" Foreground="#888" FontSize="10" FontWeight="Bold" Margin="0,0,0,8"/>
-                        <TextBlock Text="{Binding HistoricalTrend}" Foreground="White" FontSize="15" FontWeight="Medium" TextWrapping="Wrap"/>
-                    </StackPanel>
-                </Border>
+                <Button x:Name="AnalyzeButton"
+                        Content="Analyze"
+                        Padding="16,8"
+                        Background="Black"
+                        Foreground="White"
+                        FontWeight="Bold"
+                        Cursor="Hand"
+                        IsEnabled="{Binding IsAnalyzing, Converter={StaticResource InverseBooleanConverter}}"
+                        Click="OnAnalyzeClicked"/>
             </StackPanel>
 
-            <!-- Loading Indicator -->
-            <Grid Visibility="{Binding IsAnalyzing, Converter={StaticResource StringToVisibilityConverter}}"
-                  Margin="0,20,0,0" HorizontalAlignment="Center">
-                <TextBlock Text="⚙️ Analysis in progress..." FontWeight="Bold"/>
-            </Grid>
-        </StackPanel>
+            <!-- Results Area -->
+            <ScrollViewer Grid.Row="2" Margin="0,32,0,0" VerticalScrollBarVisibility="Auto">
+                <StackPanel>
+                    <TextBlock x:Name="StatusText"
+                               Text="{Binding StatusMessage}"
+                               FontSize="16" FontWeight="SemiBold" Foreground="#86868B"
+                               HorizontalAlignment="Center"
+                               TextWrapping="Wrap" TextAlignment="Center"
+                               Margin="0,0,0,24"/>
+
+                    <!-- Saturation Result -->
+                    <StackPanel Visibility="{Binding SaturationLevel, Converter={StaticResource StringToVisibilityConverter}}"
+                                HorizontalAlignment="Center">
+                        
+                        <TextBlock Text="Market Analysis Overview" 
+                                   FontSize="14" Foreground="#86868B" FontWeight="SemiBold"
+                                   HorizontalAlignment="Center"/>
+
+                        <!-- Metrics Grid -->
+                        <UniformGrid Rows="2" Columns="2" Margin="0,15,0,0" Width="420">
+                            <Border Background="White" CornerRadius="8" Padding="15" Margin="5" BorderBrush="#DDD" BorderThickness="1">
+                                <StackPanel>
+                                    <TextBlock Text="FATIGUE" Foreground="#888" FontSize="10" FontWeight="Bold"/>
+                                    <TextBlock Text="{Binding SaturationScore}" Foreground="#E74C3C" FontSize="28" FontWeight="Bold"/>
+                                </StackPanel>
+                            </Border>
+                            <Border Background="White" CornerRadius="8" Padding="15" Margin="5" BorderBrush="#DDD" BorderThickness="1">
+                                <StackPanel>
+                                    <TextBlock Text="PIVOT DRIFT" Foreground="#888" FontSize="10" FontWeight="Bold"/>
+                                    <TextBlock Text="{Binding PivotScore}" Foreground="#3498DB" FontSize="28" FontWeight="Bold"/>
+                                </StackPanel>
+                            </Border>
+                            <Border Background="White" CornerRadius="8" Padding="15" Margin="5" BorderBrush="#DDD" BorderThickness="1">
+                                <StackPanel>
+                                    <TextBlock Text="CONFIDENCE" Foreground="#888" FontSize="10" FontWeight="Bold"/>
+                                    <TextBlock Text="{Binding ConfidenceScore, StringFormat={}{0}%}" Foreground="#2ECC71" FontSize="28" FontWeight="Bold"/>
+                                </StackPanel>
+                            </Border>
+                            <Border Background="White" CornerRadius="8" Padding="15" Margin="5" BorderBrush="#DDD" BorderThickness="1">
+                                <StackPanel>
+                                    <TextBlock Text="STATUS" Foreground="#888" FontSize="10" FontWeight="Bold"/>
+                                    <TextBlock Text="{Binding SaturationLevel}" Foreground="#F1C40F" FontSize="14" FontWeight="Bold" TextWrapping="Wrap" MaxHeight="40"/>
+                                </StackPanel>
+                            </Border>
+                        </UniformGrid>
+
+                        <ProgressBar Value="{Binding SaturationScore}" 
+                                      Maximum="100" 
+                                      Width="410" 
+                                      Height="8"
+                                      Margin="0,15,0,15"
+                                      Foreground="#0071E3"
+                                      Background="#E5E5E7"
+                                      BorderThickness="0"/>
+
+                        <!-- Pivot Insight -->
+                        <Border Background="#1D1D1F" CornerRadius="10" Padding="20" Width="410" Margin="0,0,0,20">
+                            <StackPanel>
+                                <TextBlock Text="PIVOT INTELLIGENCE" Foreground="#888" FontSize="10" FontWeight="Bold" Margin="0,0,0,8"/>
+                                <TextBlock Text="{Binding HistoricalTrend}" Foreground="White" FontSize="15" FontWeight="Medium" TextWrapping="Wrap"/>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+
+                    <!-- Loading Indicator -->
+                    <Grid Visibility="{Binding IsAnalyzing, Converter={StaticResource StringToVisibilityConverter}}"
+                          Margin="0,20,0,0" HorizontalAlignment="Center">
+                        <TextBlock Text="⚙️ Analysis in progress..." FontWeight="Bold"/>
+                    </Grid>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
     </Grid>
 </Window>

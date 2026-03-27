@@ -120,3 +120,287 @@
 2026-03-28 00:08:40.735 +03:00 [INF] Calculated Pivot Score: 9.5 for LLm
 2026-03-28 00:08:40.735 +03:00 [DBG] Saving trend analysis for keyword 'LLm'
 2026-03-28 00:08:40.737 +03:00 [INF] Trend analysis & persistence completed for LLm
+2026-03-28 00:19:21.722 +03:00 [INF] Anti-Trend Forecast Engine application (WPF) initialized.
+2026-03-28 00:19:21.781 +03:00 [INF] Initializing SQLite database at Data Source=C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\antitrend.db
+2026-03-28 00:19:24.168 +03:00 [INF] Processing trend analysis for keyword: LLm
+2026-03-28 00:19:24.169 +03:00 [DBG] Retrieving history for keyword 'LLm'
+2026-03-28 00:19:26.077 +03:00 [INF] Analyzing raw scraper data: 135 characters
+2026-03-28 00:19:26.101 +03:00 [INF] Calculated base fatigue score: 55.00000000000001 for keyword: LLm
+2026-03-28 00:19:26.103 +03:00 [INF] Calculated Pivot Score: 4.75 for LLm
+2026-03-28 00:19:26.107 +03:00 [DBG] Calculated Trend Confidence: 70.5%
+2026-03-28 00:19:26.108 +03:00 [DBG] Saving trend analysis for keyword 'LLm'
+2026-03-28 00:19:26.114 +03:00 [INF] Trend analysis & persistence completed for LLm
+2026-03-28 00:19:28.983 +03:00 [INF] Processing trend analysis for keyword: LLM
+2026-03-28 00:19:28.983 +03:00 [DBG] Retrieving history for keyword 'LLM'
+2026-03-28 00:19:30.985 +03:00 [INF] Analyzing raw scraper data: 135 characters
+2026-03-28 00:19:30.985 +03:00 [INF] Calculated base fatigue score: 55.00000000000001 for keyword: LLM
+2026-03-28 00:19:30.985 +03:00 [INF] Calculated Pivot Score: 0 for LLM
+2026-03-28 00:19:30.985 +03:00 [DBG] Calculated Trend Confidence: 20%
+2026-03-28 00:19:30.985 +03:00 [DBG] Saving trend analysis for keyword 'LLM'
+2026-03-28 00:19:30.988 +03:00 [INF] Trend analysis & persistence completed for LLM
+2026-03-28 00:19:32.783 +03:00 [INF] Processing trend analysis for keyword: AI
+2026-03-28 00:19:32.783 +03:00 [DBG] Retrieving history for keyword 'AI'
+2026-03-28 00:19:34.170 +03:00 [INF] Analyzing raw scraper data: 139 characters
+2026-03-28 00:19:34.173 +03:00 [INF] Calculated base fatigue score: 55.00000000000001 for keyword: AI
+2026-03-28 00:19:34.173 +03:00 [INF] Calculated Pivot Score: 9.5 for AI
+2026-03-28 00:19:34.173 +03:00 [DBG] Calculated Trend Confidence: 20%
+2026-03-28 00:19:34.173 +03:00 [DBG] Saving trend analysis for keyword 'AI'
+2026-03-28 00:19:34.175 +03:00 [INF] Trend analysis & persistence completed for AI
+2026-03-28 00:19:34.831 +03:00 [INF] Processing trend analysis for keyword: afa
+2026-03-28 00:19:34.831 +03:00 [DBG] Retrieving history for keyword 'afa'
+2026-03-28 00:19:36.409 +03:00 [INF] Analyzing raw scraper data: 141 characters
+2026-03-28 00:19:36.409 +03:00 [INF] Calculated base fatigue score: 41.8825 for keyword: afa
+2026-03-28 00:19:36.409 +03:00 [INF] Calculated Pivot Score: -19.58178571428573 for afa
+2026-03-28 00:19:36.409 +03:00 [DBG] Calculated Trend Confidence: 20%
+2026-03-28 00:19:36.409 +03:00 [DBG] Saving trend analysis for keyword 'afa'
+2026-03-28 00:19:36.412 +03:00 [INF] Trend analysis & persistence completed for afa
+2026-03-28 00:19:37.343 +03:00 [INF] Processing trend analysis for keyword: car
+2026-03-28 00:19:37.343 +03:00 [DBG] Retrieving history for keyword 'car'
+2026-03-28 00:19:39.801 +03:00 [INF] Analyzing raw scraper data: 141 characters
+2026-03-28 00:19:39.801 +03:00 [INF] Calculated base fatigue score: 55.00000000000001 for keyword: car
+2026-03-28 00:19:39.801 +03:00 [INF] Calculated Pivot Score: 9.5 for car
+2026-03-28 00:19:39.801 +03:00 [DBG] Calculated Trend Confidence: 80%
+2026-03-28 00:19:39.801 +03:00 [DBG] Saving trend analysis for keyword 'car'
+2026-03-28 00:19:39.804 +03:00 [INF] Trend analysis & persistence completed for car
+2026-03-28 00:19:50.627 +03:00 [INF] Processing trend analysis for keyword: Rust
+2026-03-28 00:19:50.627 +03:00 [DBG] Retrieving history for keyword 'Rust'
+2026-03-28 00:19:52.385 +03:00 [INF] Analyzing raw scraper data: 136 characters
+2026-03-28 00:19:52.386 +03:00 [INF] Calculated base fatigue score: 55.00000000000001 for keyword: Rust
+2026-03-28 00:19:52.386 +03:00 [INF] Calculated Pivot Score: 4.75 for Rust
+2026-03-28 00:19:52.386 +03:00 [DBG] Calculated Trend Confidence: 70.5%
+2026-03-28 00:19:52.386 +03:00 [DBG] Saving trend analysis for keyword 'Rust'
+2026-03-28 00:19:52.389 +03:00 [INF] Trend analysis & persistence completed for Rust
+2026-03-28 00:19:57.570 +03:00 [INF] Processing trend analysis for keyword: Startup
+2026-03-28 00:19:57.570 +03:00 [DBG] Retrieving history for keyword 'Startup'
+2026-03-28 00:19:59.378 +03:00 [INF] Analyzing raw scraper data: 144 characters
+2026-03-28 00:19:59.378 +03:00 [INF] Calculated base fatigue score: 55.00000000000001 for keyword: Startup
+2026-03-28 00:19:59.378 +03:00 [INF] Calculated Pivot Score: 9.5 for Startup
+2026-03-28 00:19:59.378 +03:00 [DBG] Calculated Trend Confidence: 100%
+2026-03-28 00:19:59.378 +03:00 [DBG] Saving trend analysis for keyword 'Startup'
+2026-03-28 00:19:59.381 +03:00 [INF] Trend analysis & persistence completed for Startup
+2026-03-28 00:20:04.388 +03:00 [INF] Processing trend analysis for keyword: Ai
+2026-03-28 00:20:04.388 +03:00 [DBG] Retrieving history for keyword 'Ai'
+2026-03-28 00:20:06.335 +03:00 [INF] Analyzing raw scraper data: 139 characters
+2026-03-28 00:20:06.336 +03:00 [INF] Calculated base fatigue score: 55.00000000000001 for keyword: Ai
+2026-03-28 00:20:06.336 +03:00 [INF] Calculated Pivot Score: 0 for Ai
+2026-03-28 00:20:06.336 +03:00 [DBG] Calculated Trend Confidence: 20%
+2026-03-28 00:20:06.336 +03:00 [DBG] Saving trend analysis for keyword 'Ai'
+2026-03-28 00:20:06.338 +03:00 [INF] Trend analysis & persistence completed for Ai
+2026-03-28 00:20:09.830 +03:00 [INF] Processing trend analysis for keyword: Rust
+2026-03-28 00:20:09.830 +03:00 [DBG] Retrieving history for keyword 'Rust'
+2026-03-28 00:20:11.319 +03:00 [INF] Analyzing raw scraper data: 136 characters
+2026-03-28 00:20:11.319 +03:00 [INF] Calculated base fatigue score: 55.00000000000001 for keyword: Rust
+2026-03-28 00:20:11.319 +03:00 [INF] Calculated Pivot Score: 3.1666666666666643 for Rust
+2026-03-28 00:20:11.319 +03:00 [DBG] Calculated Trend Confidence: 91%
+2026-03-28 00:20:11.319 +03:00 [DBG] Saving trend analysis for keyword 'Rust'
+2026-03-28 00:20:11.322 +03:00 [INF] Trend analysis & persistence completed for Rust
+2026-03-28 00:20:14.002 +03:00 [INF] Processing trend analysis for keyword: LLM
+2026-03-28 00:20:14.002 +03:00 [DBG] Retrieving history for keyword 'LLM'
+2026-03-28 00:20:15.741 +03:00 [INF] Analyzing raw scraper data: 135 characters
+2026-03-28 00:20:15.741 +03:00 [INF] Calculated base fatigue score: 55.00000000000001 for keyword: LLM
+2026-03-28 00:20:15.741 +03:00 [INF] Calculated Pivot Score: 0 for LLM
+2026-03-28 00:20:15.741 +03:00 [DBG] Calculated Trend Confidence: 80%
+2026-03-28 00:20:15.741 +03:00 [DBG] Saving trend analysis for keyword 'LLM'
+2026-03-28 00:20:15.744 +03:00 [INF] Trend analysis & persistence completed for LLM
+2026-03-28 00:24:55.073 +03:00 [INF] Processing trend analysis for keyword: AI
+2026-03-28 00:24:55.073 +03:00 [DBG] Retrieving history for keyword 'AI'
+2026-03-28 00:24:57.030 +03:00 [INF] Analyzing raw scraper data: 140 characters
+2026-03-28 00:24:57.031 +03:00 [INF] Calculated base fatigue score: 55.00000000000001 for keyword: AI
+2026-03-28 00:24:57.031 +03:00 [INF] Calculated Pivot Score: 4.75 for AI
+2026-03-28 00:24:57.031 +03:00 [DBG] Calculated Trend Confidence: 70.5%
+2026-03-28 00:24:57.031 +03:00 [DBG] Saving trend analysis for keyword 'AI'
+2026-03-28 00:24:57.034 +03:00 [INF] Trend analysis & persistence completed for AI
+2026-03-28 00:24:57.929 +03:00 [INF] Processing trend analysis for keyword: LLm
+2026-03-28 00:24:57.929 +03:00 [DBG] Retrieving history for keyword 'LLm'
+2026-03-28 00:24:59.266 +03:00 [INF] Analyzing raw scraper data: 135 characters
+2026-03-28 00:24:59.267 +03:00 [INF] Calculated base fatigue score: 55.00000000000001 for keyword: LLm
+2026-03-28 00:24:59.267 +03:00 [INF] Calculated Pivot Score: 3.1666666666666643 for LLm
+2026-03-28 00:24:59.267 +03:00 [DBG] Calculated Trend Confidence: 91%
+2026-03-28 00:24:59.267 +03:00 [DBG] Saving trend analysis for keyword 'LLm'
+2026-03-28 00:24:59.269 +03:00 [INF] Trend analysis & persistence completed for LLm
+2026-03-28 00:25:01.736 +03:00 [INF] Processing trend analysis for keyword: LLM
+2026-03-28 00:25:01.737 +03:00 [DBG] Retrieving history for keyword 'LLM'
+2026-03-28 00:25:03.384 +03:00 [INF] Analyzing raw scraper data: 135 characters
+2026-03-28 00:25:03.384 +03:00 [INF] Calculated base fatigue score: 55.00000000000001 for keyword: LLM
+2026-03-28 00:25:03.384 +03:00 [INF] Calculated Pivot Score: 0 for LLM
+2026-03-28 00:25:03.384 +03:00 [DBG] Calculated Trend Confidence: 100%
+2026-03-28 00:25:03.384 +03:00 [DBG] Saving trend analysis for keyword 'LLM'
+2026-03-28 00:25:03.387 +03:00 [INF] Trend analysis & persistence completed for LLM
+2026-03-28 00:25:13.369 +03:00 [INF] Processing trend analysis for keyword: afa
+2026-03-28 00:25:13.369 +03:00 [DBG] Retrieving history for keyword 'afa'
+2026-03-28 00:25:14.942 +03:00 [INF] Analyzing raw scraper data: 141 characters
+2026-03-28 00:25:14.942 +03:00 [INF] Calculated base fatigue score: 41.8825 for keyword: afa
+2026-03-28 00:25:14.942 +03:00 [INF] Calculated Pivot Score: -9.790892857142865 for afa
+2026-03-28 00:25:14.942 +03:00 [DBG] Calculated Trend Confidence: 60.4%
+2026-03-28 00:25:14.942 +03:00 [DBG] Saving trend analysis for keyword 'afa'
+2026-03-28 00:25:14.945 +03:00 [INF] Trend analysis & persistence completed for afa
+2026-03-28 00:25:16.440 +03:00 [INF] Processing trend analysis for keyword: Startup
+2026-03-28 00:25:16.440 +03:00 [DBG] Retrieving history for keyword 'Startup'
+2026-03-28 00:25:17.960 +03:00 [INF] Analyzing raw scraper data: 145 characters
+2026-03-28 00:25:17.960 +03:00 [INF] Calculated base fatigue score: 55.00000000000001 for keyword: Startup
+2026-03-28 00:25:17.960 +03:00 [INF] Calculated Pivot Score: 7.916666666666664 for Startup
+2026-03-28 00:25:17.960 +03:00 [DBG] Calculated Trend Confidence: 92.9%
+2026-03-28 00:25:17.960 +03:00 [DBG] Saving trend analysis for keyword 'Startup'
+2026-03-28 00:25:17.963 +03:00 [INF] Trend analysis & persistence completed for Startup
+2026-03-28 00:25:26.865 +03:00 [INF] Processing trend analysis for keyword: LLM
+2026-03-28 00:25:26.865 +03:00 [DBG] Retrieving history for keyword 'LLM'
+2026-03-28 00:25:28.561 +03:00 [INF] Analyzing raw scraper data: 135 characters
+2026-03-28 00:25:28.561 +03:00 [INF] Calculated base fatigue score: 55.00000000000001 for keyword: LLM
+2026-03-28 00:25:28.561 +03:00 [INF] Calculated Pivot Score: 0 for LLM
+2026-03-28 00:25:28.561 +03:00 [DBG] Calculated Trend Confidence: 100%
+2026-03-28 00:25:28.561 +03:00 [DBG] Saving trend analysis for keyword 'LLM'
+2026-03-28 00:25:28.564 +03:00 [INF] Trend analysis & persistence completed for LLM
+2026-03-28 00:29:47.129 +03:00 [INF] Anti-Trend Forecast Engine application (WPF) initialized.
+2026-03-28 00:29:47.186 +03:00 [INF] Initializing SQLite database at Data Source=C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\antitrend.db
+2026-03-28 00:29:49.517 +03:00 [INF] Processing trend analysis for keyword: Startup
+2026-03-28 00:29:49.518 +03:00 [DBG] Retrieving history for keyword 'Startup'
+2026-03-28 00:29:51.239 +03:00 [INF] Analyzing raw scraper data: 155 characters
+2026-03-28 00:29:51.260 +03:00 [INF] Calculated base fatigue score: 100.1 for keyword: Startup
+2026-03-28 00:29:51.262 +03:00 [INF] Calculated Pivot Score: 51.88571428571427 for Startup
+2026-03-28 00:29:51.266 +03:00 [DBG] Calculated Trend Confidence: 67.1%
+2026-03-28 00:29:51.267 +03:00 [DBG] Saving trend analysis for keyword 'Startup'
+2026-03-28 00:29:51.273 +03:00 [INF] Trend analysis & persistence completed for Startup
+2026-03-28 00:29:54.283 +03:00 [INF] Processing trend analysis for keyword: Startup
+2026-03-28 00:29:54.283 +03:00 [DBG] Retrieving history for keyword 'Startup'
+2026-03-28 00:29:56.059 +03:00 [INF] Analyzing raw scraper data: 155 characters
+2026-03-28 00:29:56.060 +03:00 [INF] Calculated base fatigue score: 100.1 for keyword: Startup
+2026-03-28 00:29:56.060 +03:00 [INF] Calculated Pivot Score: 45.39999999999999 for Startup
+2026-03-28 00:29:56.060 +03:00 [DBG] Calculated Trend Confidence: 45%
+2026-03-28 00:29:56.060 +03:00 [DBG] Saving trend analysis for keyword 'Startup'
+2026-03-28 00:29:56.062 +03:00 [INF] Trend analysis & persistence completed for Startup
+2026-03-28 00:29:57.605 +03:00 [INF] Processing trend analysis for keyword: AI
+2026-03-28 00:29:57.605 +03:00 [DBG] Retrieving history for keyword 'AI'
+2026-03-28 00:29:59.620 +03:00 [INF] Analyzing raw scraper data: 150 characters
+2026-03-28 00:29:59.621 +03:00 [INF] Calculated base fatigue score: 100.8 for keyword: AI
+2026-03-28 00:29:59.621 +03:00 [INF] Calculated Pivot Score: 48.966666666666654 for AI
+2026-03-28 00:29:59.621 +03:00 [DBG] Calculated Trend Confidence: 66.6%
+2026-03-28 00:29:59.621 +03:00 [DBG] Saving trend analysis for keyword 'AI'
+2026-03-28 00:29:59.624 +03:00 [INF] Trend analysis & persistence completed for AI
+2026-03-28 00:30:01.227 +03:00 [INF] Processing trend analysis for keyword: Ai
+2026-03-28 00:30:01.227 +03:00 [DBG] Retrieving history for keyword 'Ai'
+2026-03-28 00:30:03.297 +03:00 [INF] Analyzing raw scraper data: 150 characters
+2026-03-28 00:30:03.299 +03:00 [INF] Calculated base fatigue score: 100.8 for keyword: Ai
+2026-03-28 00:30:03.299 +03:00 [INF] Calculated Pivot Score: 45.79999999999999 for Ai
+2026-03-28 00:30:03.299 +03:00 [DBG] Calculated Trend Confidence: 65%
+2026-03-28 00:30:03.299 +03:00 [DBG] Saving trend analysis for keyword 'Ai'
+2026-03-28 00:30:03.302 +03:00 [INF] Trend analysis & persistence completed for Ai
+2026-03-28 00:30:03.955 +03:00 [INF] Processing trend analysis for keyword: car
+2026-03-28 00:30:03.955 +03:00 [DBG] Retrieving history for keyword 'car'
+2026-03-28 00:30:05.299 +03:00 [INF] Analyzing raw scraper data: 151 characters
+2026-03-28 00:30:05.299 +03:00 [INF] Calculated base fatigue score: 100.3 for keyword: car
+2026-03-28 00:30:05.299 +03:00 [INF] Calculated Pivot Score: 51.63333333333332 for car
+2026-03-28 00:30:05.299 +03:00 [DBG] Calculated Trend Confidence: 66.6%
+2026-03-28 00:30:05.299 +03:00 [DBG] Saving trend analysis for keyword 'car'
+2026-03-28 00:30:05.302 +03:00 [INF] Trend analysis & persistence completed for car
+2026-03-28 00:30:06.444 +03:00 [INF] Processing trend analysis for keyword: Web3
+2026-03-28 00:30:06.444 +03:00 [DBG] Retrieving history for keyword 'Web3'
+2026-03-28 00:30:07.768 +03:00 [INF] Analyzing raw scraper data: 151 characters
+2026-03-28 00:30:07.768 +03:00 [INF] Calculated base fatigue score: 97.7 for keyword: Web3
+2026-03-28 00:30:07.768 +03:00 [INF] Calculated Pivot Score: 52.199999999999996 for Web3
+2026-03-28 00:30:07.768 +03:00 [DBG] Calculated Trend Confidence: 15%
+2026-03-28 00:30:07.768 +03:00 [DBG] Saving trend analysis for keyword 'Web3'
+2026-03-28 00:30:07.771 +03:00 [INF] Trend analysis & persistence completed for Web3
+2026-03-28 00:30:25.455 +03:00 [INF] Processing trend analysis for keyword: power
+2026-03-28 00:30:25.455 +03:00 [DBG] Retrieving history for keyword 'power'
+2026-03-28 00:30:26.969 +03:00 [INF] Analyzing raw scraper data: 150 characters
+2026-03-28 00:30:26.970 +03:00 [INF] Calculated base fatigue score: 99.3 for keyword: power
+2026-03-28 00:30:26.970 +03:00 [DBG] Saving trend analysis for keyword 'power'
+2026-03-28 00:30:26.973 +03:00 [INF] Trend analysis & persistence completed for power
+2026-03-28 00:32:54.615 +03:00 [INF] Anti-Trend Forecast Engine application (WPF) initialized.
+2026-03-28 00:32:54.671 +03:00 [INF] Initializing SQLite database at Data Source=C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\antitrend.db
+2026-03-28 00:32:57.432 +03:00 [INF] Processing trend analysis for keyword: LLM
+2026-03-28 00:32:57.433 +03:00 [DBG] Retrieving history for keyword 'LLM'
+2026-03-28 00:32:59.132 +03:00 [INF] Analyzing raw scraper data: 148 characters
+2026-03-28 00:32:59.155 +03:00 [INF] Calculated base fatigue score: 53.8 for keyword: LLM
+2026-03-28 00:32:59.156 +03:00 [INF] Calculated Pivot Score: -1.200000000000017 for LLM
+2026-03-28 00:32:59.161 +03:00 [DBG] Calculated Trend Confidence: 80%
+2026-03-28 00:32:59.162 +03:00 [DBG] Saving trend analysis for keyword 'LLM'
+2026-03-28 00:32:59.168 +03:00 [INF] Trend analysis & persistence completed for LLM
+2026-03-28 00:33:02.440 +03:00 [INF] Processing trend analysis for keyword: Ai
+2026-03-28 00:33:02.441 +03:00 [DBG] Retrieving history for keyword 'Ai'
+2026-03-28 00:33:04.148 +03:00 [INF] Analyzing raw scraper data: 150 characters
+2026-03-28 00:33:04.148 +03:00 [INF] Calculated base fatigue score: 85.8 for keyword: Ai
+2026-03-28 00:33:04.148 +03:00 [INF] Calculated Pivot Score: 15.533333333333331 for Ai
+2026-03-28 00:33:04.148 +03:00 [DBG] Calculated Trend Confidence: 45%
+2026-03-28 00:33:04.148 +03:00 [DBG] Saving trend analysis for keyword 'Ai'
+2026-03-28 00:33:04.151 +03:00 [INF] Trend analysis & persistence completed for Ai
+2026-03-28 00:33:11.944 +03:00 [INF] Processing trend analysis for keyword: LLm
+2026-03-28 00:33:11.944 +03:00 [DBG] Retrieving history for keyword 'LLm'
+2026-03-28 00:33:13.662 +03:00 [INF] Analyzing raw scraper data: 148 characters
+2026-03-28 00:33:13.665 +03:00 [INF] Calculated base fatigue score: 53.8 for keyword: LLm
+2026-03-28 00:33:13.665 +03:00 [INF] Calculated Pivot Score: 1.17499999999999 for LLm
+2026-03-28 00:33:13.665 +03:00 [DBG] Calculated Trend Confidence: 67.7%
+2026-03-28 00:33:13.665 +03:00 [DBG] Saving trend analysis for keyword 'LLm'
+2026-03-28 00:33:13.670 +03:00 [INF] Trend analysis & persistence completed for LLm
+2026-03-28 00:33:17.696 +03:00 [INF] Processing trend analysis for keyword: Docker
+2026-03-28 00:33:17.696 +03:00 [DBG] Retrieving history for keyword 'Docker'
+2026-03-28 00:33:19.402 +03:00 [INF] Analyzing raw scraper data: 150 characters
+2026-03-28 00:33:19.402 +03:00 [INF] Calculated base fatigue score: 36.9 for keyword: Docker
+2026-03-28 00:33:19.402 +03:00 [INF] Calculated Pivot Score: -9.007000000000005 for Docker
+2026-03-28 00:33:19.402 +03:00 [DBG] Calculated Trend Confidence: 63.8%
+2026-03-28 00:33:19.402 +03:00 [DBG] Saving trend analysis for keyword 'Docker'
+2026-03-28 00:33:19.405 +03:00 [INF] Trend analysis & persistence completed for Docker
+2026-03-28 00:33:22.727 +03:00 [INF] Processing trend analysis for keyword: Startup
+2026-03-28 00:33:22.727 +03:00 [DBG] Retrieving history for keyword 'Startup'
+2026-03-28 00:33:24.524 +03:00 [INF] Analyzing raw scraper data: 155 characters
+2026-03-28 00:33:24.524 +03:00 [INF] Calculated base fatigue score: 85.1 for keyword: Startup
+2026-03-28 00:33:24.525 +03:00 [INF] Calculated Pivot Score: 25.355555555555547 for Startup
+2026-03-28 00:33:24.525 +03:00 [DBG] Calculated Trend Confidence: 45%
+2026-03-28 00:33:24.525 +03:00 [DBG] Saving trend analysis for keyword 'Startup'
+2026-03-28 00:33:24.527 +03:00 [INF] Trend analysis & persistence completed for Startup
+2026-03-28 00:33:27.240 +03:00 [INF] Processing trend analysis for keyword: power
+2026-03-28 00:33:27.240 +03:00 [DBG] Retrieving history for keyword 'power'
+2026-03-28 00:33:28.929 +03:00 [INF] Analyzing raw scraper data: 150 characters
+2026-03-28 00:33:28.930 +03:00 [INF] Calculated base fatigue score: 84.3 for keyword: power
+2026-03-28 00:33:28.930 +03:00 [INF] Calculated Pivot Score: -15 for power
+2026-03-28 00:33:28.930 +03:00 [DBG] Calculated Trend Confidence: 15%
+2026-03-28 00:33:28.930 +03:00 [DBG] Saving trend analysis for keyword 'power'
+2026-03-28 00:33:28.932 +03:00 [INF] Trend analysis & persistence completed for power
+2026-03-28 00:33:35.047 +03:00 [INF] Processing trend analysis for keyword: power
+2026-03-28 00:33:35.047 +03:00 [DBG] Retrieving history for keyword 'power'
+2026-03-28 00:33:36.725 +03:00 [INF] Analyzing raw scraper data: 150 characters
+2026-03-28 00:33:36.725 +03:00 [INF] Calculated base fatigue score: 84.3 for keyword: power
+2026-03-28 00:33:36.725 +03:00 [INF] Calculated Pivot Score: -7.5 for power
+2026-03-28 00:33:36.725 +03:00 [DBG] Calculated Trend Confidence: 42.5%
+2026-03-28 00:33:36.725 +03:00 [DBG] Saving trend analysis for keyword 'power'
+2026-03-28 00:33:36.728 +03:00 [INF] Trend analysis & persistence completed for power
+2026-03-28 00:33:49.794 +03:00 [INF] Processing trend analysis for keyword: rice
+2026-03-28 00:33:49.794 +03:00 [DBG] Retrieving history for keyword 'rice'
+2026-03-28 00:33:51.254 +03:00 [INF] Analyzing raw scraper data: 163 characters
+2026-03-28 00:33:51.255 +03:00 [INF] Calculated base fatigue score: 51.7 for keyword: rice
+2026-03-28 00:33:51.255 +03:00 [DBG] Saving trend analysis for keyword 'rice'
+2026-03-28 00:33:51.257 +03:00 [INF] Trend analysis & persistence completed for rice
+2026-03-28 00:37:35.614 +03:00 [INF] Anti-Trend Forecast Engine application (WPF) initialized.
+2026-03-28 00:37:35.672 +03:00 [INF] Initializing SQLite database at Data Source=C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\antitrend.db
+2026-03-28 00:37:37.989 +03:00 [INF] Processing trend analysis for keyword: rice
+2026-03-28 00:37:37.989 +03:00 [DBG] Retrieving history for keyword 'rice'
+2026-03-28 00:37:39.811 +03:00 [INF] Analyzing raw scraper data: 163 characters
+2026-03-28 00:37:39.834 +03:00 [DBG] Calculated Trend Confidence: 15%
+2026-03-28 00:37:39.835 +03:00 [INF] Calculated base fatigue score: 51.7 for keyword: rice
+2026-03-28 00:37:39.836 +03:00 [INF] Calculated Pivot Score: 0 for rice
+2026-03-28 00:37:39.837 +03:00 [DBG] Saving trend analysis for keyword 'rice'
+2026-03-28 00:37:39.843 +03:00 [INF] Trend analysis & persistence completed for rice
+2026-03-28 00:37:42.971 +03:00 [INF] Processing trend analysis for keyword: power
+2026-03-28 00:37:42.971 +03:00 [DBG] Retrieving history for keyword 'power'
+2026-03-28 00:37:44.835 +03:00 [INF] Analyzing raw scraper data: 150 characters
+2026-03-28 00:37:44.840 +03:00 [DBG] Calculated Trend Confidence: 58.8%
+2026-03-28 00:37:44.840 +03:00 [INF] Calculated base fatigue score: 84.3 for keyword: power
+2026-03-28 00:37:44.840 +03:00 [INF] Calculated Pivot Score: -5 for power
+2026-03-28 00:37:44.840 +03:00 [DBG] Saving trend analysis for keyword 'power'
+2026-03-28 00:37:44.843 +03:00 [INF] Trend analysis & persistence completed for power
+2026-03-28 00:37:49.554 +03:00 [INF] Processing trend analysis for keyword: LLm
+2026-03-28 00:37:49.554 +03:00 [DBG] Retrieving history for keyword 'LLm'
+2026-03-28 00:37:51.376 +03:00 [INF] Analyzing raw scraper data: 147 characters
+2026-03-28 00:37:51.376 +03:00 [DBG] Calculated Trend Confidence: 68.9%
+2026-03-28 00:37:51.376 +03:00 [INF] Calculated base fatigue score: 53.8 for keyword: LLm
+2026-03-28 00:37:51.376 +03:00 [INF] Calculated Pivot Score: 0.9399999999999977 for LLm
+2026-03-28 00:37:51.376 +03:00 [DBG] Saving trend analysis for keyword 'LLm'
+2026-03-28 00:37:51.379 +03:00 [INF] Trend analysis & persistence completed for LLm
+2026-03-28 00:37:53.994 +03:00 [INF] Processing trend analysis for keyword: Web3
+2026-03-28 00:37:53.994 +03:00 [DBG] Retrieving history for keyword 'Web3'
+2026-03-28 00:37:55.480 +03:00 [INF] Analyzing raw scraper data: 151 characters
+2026-03-28 00:37:55.483 +03:00 [DBG] Calculated Trend Confidence: 30%
+2026-03-28 00:37:55.483 +03:00 [INF] Calculated base fatigue score: 82.9 for keyword: Web3
+2026-03-28 00:37:55.483 +03:00 [INF] Calculated Pivot Score: 11.299999999999997 for Web3
+2026-03-28 00:37:55.483 +03:00 [DBG] Saving trend analysis for keyword 'Web3'
+2026-03-28 00:37:55.486 +03:00 [INF] Trend analysis & persistence completed for Web3
