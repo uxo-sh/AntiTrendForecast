@@ -1,0 +1,13 @@
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\bin\Debug\net10.0\AntiTrendForecast.Execution.deps.json
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\bin\Debug\net10.0\AntiTrendForecast.Execution.dll
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\bin\Debug\net10.0\AntiTrendForecast.Execution.pdb
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\obj\Debug\net10.0\AntiTrendForecast.Execution.csproj.AssemblyReference.cache
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\obj\Debug\net10.0\AntiTrendForecast.Execution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\obj\Debug\net10.0\AntiTrendForecast.Execution.AssemblyInfoInputs.cache
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\obj\Debug\net10.0\AntiTrendForecast.Execution.AssemblyInfo.cs
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\obj\Debug\net10.0\AntiTrendForecast.Execution.csproj.CoreCompileInputs.cache
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\obj\Debug\net10.0\AntiTrendForecast.Execution.sourcelink.json
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\obj\Debug\net10.0\AntiTrendForecast.Execution.dll
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\obj\Debug\net10.0\refint\AntiTrendForecast.Execution.dll
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\obj\Debug\net10.0\AntiTrendForecast.Execution.pdb
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\obj\Debug\net10.0\ref\AntiTrendForecast.Execution.dll

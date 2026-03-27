@@ -1,0 +1,16 @@
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Orchestration\bin\Debug\net10.0\AntiTrendForecast.Orchestration.deps.json
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Orchestration\bin\Debug\net10.0\AntiTrendForecast.Orchestration.dll
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Orchestration\bin\Debug\net10.0\AntiTrendForecast.Orchestration.pdb
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Orchestration\bin\Debug\net10.0\AntiTrendForecast.Execution.dll
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Orchestration\bin\Debug\net10.0\AntiTrendForecast.Execution.pdb
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Orchestration\obj\Debug\net10.0\AntiTrendForecast.Orchestration.csproj.AssemblyReference.cache
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Orchestration\obj\Debug\net10.0\AntiTrendForecast.Orchestration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Orchestration\obj\Debug\net10.0\AntiTrendForecast.Orchestration.AssemblyInfoInputs.cache
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Orchestration\obj\Debug\net10.0\AntiTrendForecast.Orchestration.AssemblyInfo.cs
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Orchestration\obj\Debug\net10.0\AntiTrendForecast.Orchestration.csproj.CoreCompileInputs.cache
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Orchestration\obj\Debug\net10.0\AntiTrendForecast.Orchestration.sourcelink.json
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Orchestration\obj\Debug\net10.0\AntiTren.7921F6C2.Up2Date
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Orchestration\obj\Debug\net10.0\AntiTrendForecast.Orchestration.dll
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Orchestration\obj\Debug\net10.0\refint\AntiTrendForecast.Orchestration.dll
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Orchestration\obj\Debug\net10.0\AntiTrendForecast.Orchestration.pdb
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Orchestration\obj\Debug\net10.0\ref\AntiTrendForecast.Orchestration.dll

@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Directive/">
+    <Project Path="src/Directive/AntiTrendForecast.Directive.csproj" />
+  </Folder>
+  <Folder Name="/src/Execution/">
+    <Project Path="src/Execution/AntiTrendForecast.Execution.csproj" />
+  </Folder>
+  <Folder Name="/src/Orchestration/">
+    <Project Path="src/Orchestration/AntiTrendForecast.Orchestration.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AntiTrendForecast.Tests.csproj" />
+  </Folder>
+</Solution>
