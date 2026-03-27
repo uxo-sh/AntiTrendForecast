@@ -24,6 +24,12 @@ public partial class DashboardViewModel : ObservableObject
     private double _saturationScore;
 
     [ObservableProperty]
+    private double _pivotScore;
+
+    [ObservableProperty]
+    private string _historicalTrend = "N/A";
+
+    [ObservableProperty]
     private bool _isAnalyzing;
 
     public DashboardViewModel(ITrendInputHandler handler)
@@ -50,7 +56,10 @@ public partial class DashboardViewModel : ObservableObject
             
             SaturationLevel = result.SaturationLevel;
             SaturationScore = Math.Round(result.FatigueScore, 1);
-            StatusMessage = $"✅ Analysis complete for \"{Keyword}\". Score: {SaturationScore}";
+            PivotScore = Math.Round(result.PivotScore, 1);
+            HistoricalTrend = result.HistoricalTrend;
+            
+            StatusMessage = $"✅ Analysis complete for \"{Keyword}\".";
         }
         catch (Exception ex)
         {

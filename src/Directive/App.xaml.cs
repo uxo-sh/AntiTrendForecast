@@ -5,6 +5,7 @@ using Serilog;
 using AntiTrendForecast.Directive.Handlers;
 using AntiTrendForecast.Orchestration.Analysis;
 using AntiTrendForecast.Execution.Python;
+using AntiTrendForecast.Execution.Persistence;
 using Path = System.IO.Path;
 
 namespace AntiTrendForecast.Directive;
@@ -16,7 +17,7 @@ public partial class App : Application
 {
     public static IServiceProvider? Services { get; private set; }
 
-    protected override void OnStartup(StartupEventArgs e)
+    protected override async void OnStartup(StartupEventArgs e)
     {
         base.OnStartup(e);
 
@@ -37,7 +38,17 @@ public partial class App : Application
 
         Log.Information("Anti-Trend Forecast Engine application (WPF) initialized.");
 
-        // 3. Show Main Window
+        // 3. Initialize Database and Show Main Window
+        try 
+        {
+            var repo = Services?.GetRequiredService<ITrendRepository>();
+            if (repo != null) await repo.InitializeAsync();
+        }
+        catch (Exception ex)
+        {
+            Log.Error(ex, "Failed to initialize database.");
+        }
+
         var mainWindow = Services?.GetRequiredService<MainWindow>();
         mainWindow?.Show();
     }
@@ -55,9 +66,11 @@ public partial class App : Application
         services.AddTransient<MainWindow>();
 
         // Layer 2 - Orchestration
+        services.AddSingleton<IPivotScoreCalculator, PivotScoreCalculator>();
         services.AddSingleton<IFatigueAnalyzer, FatigueAnalyzer>();
 
         // Layer 3 - Execution
         services.AddSingleton<IPythonRunnerService, PythonRunnerService>();
+        services.AddSingleton<ITrendRepository, TrendRepository>();
     }
 }

@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:AntiTrendForecast.Directive"
         mc:Ignorable="d"
         Title="Anti-Trend Forecast Engine - Market Fatigue Dashboard" 
-        Height="500" Width="600"
+        Height="600" Width="600"
         Background="#F5F5F7">
 
     <Grid x:Name="RootGrid" Margin="32">
@@ -43,12 +43,12 @@
         <!-- Search Input -->
         <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
             <TextBox x:Name="KeywordInput"
-                     Text="{Binding Keyword, UpdateSourceTrigger=PropertyChanged}"
-                     Padding="8"
-                     FontSize="14"
-                     VerticalContentAlignment="Center"
-                     Width="350"
-                     Margin="0,0,12,0"/>
+                      Text="{Binding Keyword, UpdateSourceTrigger=PropertyChanged}"
+                      Padding="8"
+                      FontSize="14"
+                      VerticalContentAlignment="Center"
+                      Width="350"
+                      Margin="0,0,12,0"/>
             
             <Button x:Name="AnalyzeButton"
                     Content="Analyze"
@@ -75,26 +75,50 @@
             <StackPanel Visibility="{Binding SaturationLevel, Converter={StaticResource StringToVisibilityConverter}}"
                         HorizontalAlignment="Center">
                 
-                <TextBlock Text="Market Saturation Level:" 
+                <TextBlock Text="Market Analysis Overview" 
                            Style="{StaticResource SubtitleStyle}" 
                            HorizontalAlignment="Center"
                            FontSize="14"/>
-                
+
+                <!-- Metrics Grid -->
+                <UniformGrid Rows="1" Columns="2" Margin="0,15,0,0" Width="420">
+                    <Border Background="White" CornerRadius="8" Padding="15" Margin="5" BorderBrush="#DDD" BorderThickness="1">
+                        <StackPanel>
+                            <TextBlock Text="FATIGUE" Foreground="#888" FontSize="10" FontWeight="Bold"/>
+                            <TextBlock Text="{Binding SaturationScore}" Foreground="#E74C3C" FontSize="28" FontWeight="Bold"/>
+                        </StackPanel>
+                    </Border>
+                    <Border Background="White" CornerRadius="8" Padding="15" Margin="5" BorderBrush="#DDD" BorderThickness="1">
+                        <StackPanel>
+                            <TextBlock Text="PIVOT DRIFT" Foreground="#888" FontSize="10" FontWeight="Bold"/>
+                            <TextBlock Text="{Binding PivotScore}" Foreground="#3498DB" FontSize="28" FontWeight="Bold"/>
+                        </StackPanel>
+                    </Border>
+                </UniformGrid>
+
                 <TextBlock Text="{Binding SaturationLevel}" 
-                           FontSize="20"
+                           FontSize="18"
                            FontWeight="Bold"
-                           Foreground="#0071E3"
+                           Foreground="#1D1D1F"
                            HorizontalAlignment="Center"
-                           Margin="0,8"/>
-                
+                           Margin="0,15,0,5"/>
+
                 <ProgressBar Value="{Binding SaturationScore}" 
-                             Maximum="100" 
-                             Width="350" 
-                             Height="12"
-                             Margin="0,8,0,0"
-                             Foreground="#0071E3"
-                             Background="#E5E5E7"
-                             BorderThickness="0"/>
+                              Maximum="100" 
+                              Width="410" 
+                              Height="8"
+                              Margin="0,5,0,15"
+                              Foreground="#0071E3"
+                              Background="#E5E5E7"
+                              BorderThickness="0"/>
+
+                <!-- Pivot Insight -->
+                <Border Background="#1D1D1F" CornerRadius="10" Padding="20" Width="410">
+                    <StackPanel>
+                        <TextBlock Text="PIVOT INTELLIGENCE" Foreground="#888" FontSize="10" FontWeight="Bold" Margin="0,0,0,8"/>
+                        <TextBlock Text="{Binding HistoricalTrend}" Foreground="White" FontSize="15" FontWeight="Medium" TextWrapping="Wrap"/>
+                    </StackPanel>
+                </Border>
             </StackPanel>
 
             <!-- Loading Indicator -->

@@ -1,0 +1,122 @@
+2026-03-28 00:00:54.486 +03:00 [INF] Anti-Trend Forecast Engine application (WPF) initialized.
+2026-03-28 00:00:54.545 +03:00 [INF] Initializing SQLite database at Data Source=C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\antitrend.db
+2026-03-28 00:01:02.406 +03:00 [INF] Processing trend analysis for keyword: AI
+2026-03-28 00:01:02.407 +03:00 [DBG] Retrieving history for keyword 'AI'
+2026-03-28 00:01:04.237 +03:00 [INF] Analyzing raw scraper data: 130 characters
+2026-03-28 00:01:04.262 +03:00 [INF] Calculated base fatigue score: 45.50000000000001 for keyword: AI
+2026-03-28 00:01:04.264 +03:00 [DBG] Saving trend analysis for keyword 'AI'
+2026-03-28 00:01:04.271 +03:00 [INF] Trend analysis & persistence completed for AI
+2026-03-28 00:01:27.291 +03:00 [INF] Processing trend analysis for keyword: Startup
+2026-03-28 00:01:27.291 +03:00 [DBG] Retrieving history for keyword 'Startup'
+2026-03-28 00:01:28.935 +03:00 [INF] Analyzing raw scraper data: 135 characters
+2026-03-28 00:01:28.937 +03:00 [INF] Calculated base fatigue score: 45.50000000000001 for keyword: Startup
+2026-03-28 00:01:28.937 +03:00 [DBG] Saving trend analysis for keyword 'Startup'
+2026-03-28 00:01:28.940 +03:00 [INF] Trend analysis & persistence completed for Startup
+2026-03-28 00:01:37.435 +03:00 [INF] Processing trend analysis for keyword: Startup
+2026-03-28 00:01:37.435 +03:00 [DBG] Retrieving history for keyword 'Startup'
+2026-03-28 00:01:39.151 +03:00 [INF] Analyzing raw scraper data: 135 characters
+2026-03-28 00:01:39.151 +03:00 [INF] Calculated base fatigue score: 45.50000000000001 for keyword: Startup
+2026-03-28 00:01:39.152 +03:00 [INF] Calculated Pivot Score: 0 for Startup
+2026-03-28 00:01:39.152 +03:00 [DBG] Saving trend analysis for keyword 'Startup'
+2026-03-28 00:01:39.155 +03:00 [INF] Trend analysis & persistence completed for Startup
+2026-03-28 00:01:42.290 +03:00 [INF] Processing trend analysis for keyword: Startup
+2026-03-28 00:01:42.291 +03:00 [DBG] Retrieving history for keyword 'Startup'
+2026-03-28 00:01:43.970 +03:00 [INF] Analyzing raw scraper data: 135 characters
+2026-03-28 00:01:43.971 +03:00 [INF] Calculated base fatigue score: 45.50000000000001 for keyword: Startup
+2026-03-28 00:01:43.971 +03:00 [INF] Calculated Pivot Score: 0 for Startup
+2026-03-28 00:01:43.971 +03:00 [DBG] Saving trend analysis for keyword 'Startup'
+2026-03-28 00:01:43.973 +03:00 [INF] Trend analysis & persistence completed for Startup
+2026-03-28 00:02:15.602 +03:00 [INF] Processing trend analysis for keyword: Startup
+2026-03-28 00:02:15.602 +03:00 [DBG] Retrieving history for keyword 'Startup'
+2026-03-28 00:02:17.552 +03:00 [INF] Analyzing raw scraper data: 135 characters
+2026-03-28 00:02:17.553 +03:00 [INF] Calculated base fatigue score: 45.50000000000001 for keyword: Startup
+2026-03-28 00:02:17.553 +03:00 [INF] Calculated Pivot Score: 0 for Startup
+2026-03-28 00:02:17.553 +03:00 [DBG] Saving trend analysis for keyword 'Startup'
+2026-03-28 00:02:17.555 +03:00 [INF] Trend analysis & persistence completed for Startup
+2026-03-28 00:02:27.986 +03:00 [INF] Processing trend analysis for keyword: Startup
+2026-03-28 00:02:27.986 +03:00 [DBG] Retrieving history for keyword 'Startup'
+2026-03-28 00:02:29.926 +03:00 [INF] Analyzing raw scraper data: 135 characters
+2026-03-28 00:02:29.926 +03:00 [INF] Calculated base fatigue score: 45.50000000000001 for keyword: Startup
+2026-03-28 00:02:29.926 +03:00 [INF] Calculated Pivot Score: 0 for Startup
+2026-03-28 00:02:29.926 +03:00 [DBG] Saving trend analysis for keyword 'Startup'
+2026-03-28 00:02:29.929 +03:00 [INF] Trend analysis & persistence completed for Startup
+2026-03-28 00:03:49.226 +03:00 [INF] Anti-Trend Forecast Engine application (WPF) initialized.
+2026-03-28 00:03:49.280 +03:00 [INF] Initializing SQLite database at Data Source=C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\antitrend.db
+2026-03-28 00:03:54.517 +03:00 [INF] Processing trend analysis for keyword: afa
+2026-03-28 00:03:54.517 +03:00 [DBG] Retrieving history for keyword 'afa'
+2026-03-28 00:03:56.273 +03:00 [INF] Analyzing raw scraper data: 143 characters
+2026-03-28 00:03:56.295 +03:00 [INF] Calculated base fatigue score: 61.46428571428573 for keyword: afa
+2026-03-28 00:03:56.296 +03:00 [DBG] Saving trend analysis for keyword 'afa'
+2026-03-28 00:03:56.303 +03:00 [INF] Trend analysis & persistence completed for afa
+2026-03-28 00:04:05.191 +03:00 [INF] Processing trend analysis for keyword: car
+2026-03-28 00:04:05.191 +03:00 [DBG] Retrieving history for keyword 'car'
+2026-03-28 00:04:06.722 +03:00 [INF] Analyzing raw scraper data: 130 characters
+2026-03-28 00:04:06.723 +03:00 [INF] Calculated base fatigue score: 45.50000000000001 for keyword: car
+2026-03-28 00:04:06.723 +03:00 [DBG] Saving trend analysis for keyword 'car'
+2026-03-28 00:04:06.725 +03:00 [INF] Trend analysis & persistence completed for car
+2026-03-28 00:04:23.513 +03:00 [INF] Processing trend analysis for keyword: car
+2026-03-28 00:04:23.513 +03:00 [DBG] Retrieving history for keyword 'car'
+2026-03-28 00:04:25.040 +03:00 [INF] Analyzing raw scraper data: 130 characters
+2026-03-28 00:04:25.043 +03:00 [INF] Calculated base fatigue score: 45.50000000000001 for keyword: car
+2026-03-28 00:04:25.044 +03:00 [INF] Calculated Pivot Score: 0 for car
+2026-03-28 00:04:25.044 +03:00 [DBG] Saving trend analysis for keyword 'car'
+2026-03-28 00:04:25.047 +03:00 [INF] Trend analysis & persistence completed for car
+2026-03-28 00:05:28.179 +03:00 [INF] Processing trend analysis for keyword: Rust
+2026-03-28 00:05:28.179 +03:00 [DBG] Retrieving history for keyword 'Rust'
+2026-03-28 00:05:29.862 +03:00 [INF] Analyzing raw scraper data: 131 characters
+2026-03-28 00:05:29.862 +03:00 [INF] Calculated base fatigue score: 45.50000000000001 for keyword: Rust
+2026-03-28 00:05:29.862 +03:00 [DBG] Saving trend analysis for keyword 'Rust'
+2026-03-28 00:05:29.866 +03:00 [INF] Trend analysis & persistence completed for Rust
+2026-03-28 00:05:34.697 +03:00 [INF] Processing trend analysis for keyword: LLm
+2026-03-28 00:05:34.697 +03:00 [DBG] Retrieving history for keyword 'LLm'
+2026-03-28 00:05:36.356 +03:00 [INF] Analyzing raw scraper data: 130 characters
+2026-03-28 00:05:36.356 +03:00 [INF] Calculated base fatigue score: 45.50000000000001 for keyword: LLm
+2026-03-28 00:05:36.356 +03:00 [DBG] Saving trend analysis for keyword 'LLm'
+2026-03-28 00:05:36.359 +03:00 [INF] Trend analysis & persistence completed for LLm
+2026-03-28 00:05:41.173 +03:00 [INF] Processing trend analysis for keyword: Web3
+2026-03-28 00:05:41.173 +03:00 [DBG] Retrieving history for keyword 'Web3'
+2026-03-28 00:05:42.967 +03:00 [INF] Analyzing raw scraper data: 131 characters
+2026-03-28 00:05:42.967 +03:00 [INF] Calculated base fatigue score: 45.50000000000001 for keyword: Web3
+2026-03-28 00:05:42.967 +03:00 [DBG] Saving trend analysis for keyword 'Web3'
+2026-03-28 00:05:42.970 +03:00 [INF] Trend analysis & persistence completed for Web3
+2026-03-28 00:05:53.130 +03:00 [INF] Processing trend analysis for keyword: Docker
+2026-03-28 00:05:53.130 +03:00 [DBG] Retrieving history for keyword 'Docker'
+2026-03-28 00:05:54.860 +03:00 [INF] Analyzing raw scraper data: 133 characters
+2026-03-28 00:05:54.861 +03:00 [INF] Calculated base fatigue score: 45.50000000000001 for keyword: Docker
+2026-03-28 00:05:54.861 +03:00 [DBG] Saving trend analysis for keyword 'Docker'
+2026-03-28 00:05:54.863 +03:00 [INF] Trend analysis & persistence completed for Docker
+2026-03-28 00:07:47.106 +03:00 [INF] Anti-Trend Forecast Engine application (WPF) initialized.
+2026-03-28 00:07:47.161 +03:00 [INF] Initializing SQLite database at Data Source=C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\antitrend.db
+2026-03-28 00:07:52.615 +03:00 [INF] Processing trend analysis for keyword: Ai
+2026-03-28 00:07:52.616 +03:00 [DBG] Retrieving history for keyword 'Ai'
+2026-03-28 00:07:54.170 +03:00 [INF] Analyzing raw scraper data: 140 characters
+2026-03-28 00:07:54.193 +03:00 [INF] Calculated base fatigue score: 55.00000000000001 for keyword: Ai
+2026-03-28 00:07:54.194 +03:00 [DBG] Saving trend analysis for keyword 'Ai'
+2026-03-28 00:07:54.201 +03:00 [INF] Trend analysis & persistence completed for Ai
+2026-03-28 00:08:00.180 +03:00 [INF] Processing trend analysis for keyword: Docker
+2026-03-28 00:08:00.180 +03:00 [DBG] Retrieving history for keyword 'Docker'
+2026-03-28 00:08:01.933 +03:00 [INF] Analyzing raw scraper data: 138 characters
+2026-03-28 00:08:01.933 +03:00 [INF] Calculated base fatigue score: 46.314 for keyword: Docker
+2026-03-28 00:08:01.934 +03:00 [INF] Calculated Pivot Score: 0.813999999999993 for Docker
+2026-03-28 00:08:01.934 +03:00 [DBG] Saving trend analysis for keyword 'Docker'
+2026-03-28 00:08:01.937 +03:00 [INF] Trend analysis & persistence completed for Docker
+2026-03-28 00:08:10.676 +03:00 [INF] Processing trend analysis for keyword: Rust
+2026-03-28 00:08:10.676 +03:00 [DBG] Retrieving history for keyword 'Rust'
+2026-03-28 00:08:12.300 +03:00 [INF] Analyzing raw scraper data: 136 characters
+2026-03-28 00:08:12.302 +03:00 [INF] Calculated base fatigue score: 55.00000000000001 for keyword: Rust
+2026-03-28 00:08:12.302 +03:00 [INF] Calculated Pivot Score: 9.5 for Rust
+2026-03-28 00:08:12.302 +03:00 [DBG] Saving trend analysis for keyword 'Rust'
+2026-03-28 00:08:12.304 +03:00 [INF] Trend analysis & persistence completed for Rust
+2026-03-28 00:08:28.412 +03:00 [INF] Processing trend analysis for keyword: LLM
+2026-03-28 00:08:28.412 +03:00 [DBG] Retrieving history for keyword 'LLM'
+2026-03-28 00:08:30.198 +03:00 [INF] Analyzing raw scraper data: 135 characters
+2026-03-28 00:08:30.199 +03:00 [INF] Calculated base fatigue score: 55.00000000000001 for keyword: LLM
+2026-03-28 00:08:30.199 +03:00 [DBG] Saving trend analysis for keyword 'LLM'
+2026-03-28 00:08:30.201 +03:00 [INF] Trend analysis & persistence completed for LLM
+2026-03-28 00:08:39.078 +03:00 [INF] Processing trend analysis for keyword: LLm
+2026-03-28 00:08:39.078 +03:00 [DBG] Retrieving history for keyword 'LLm'
+2026-03-28 00:08:40.734 +03:00 [INF] Analyzing raw scraper data: 135 characters
+2026-03-28 00:08:40.735 +03:00 [INF] Calculated base fatigue score: 55.00000000000001 for keyword: LLm
+2026-03-28 00:08:40.735 +03:00 [INF] Calculated Pivot Score: 9.5 for LLm
+2026-03-28 00:08:40.735 +03:00 [DBG] Saving trend analysis for keyword 'LLm'
+2026-03-28 00:08:40.737 +03:00 [INF] Trend analysis & persistence completed for LLm
