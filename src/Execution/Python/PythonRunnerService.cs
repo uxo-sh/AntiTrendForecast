@@ -10,18 +10,24 @@ public class PythonRunnerService : IPythonRunnerService
 {
     private readonly ILogger<PythonRunnerService> _logger;
     private readonly string _scriptsPath;
-    private const string PythonExecutable = "python"; // Assumes python is in PATH
+    private const string PythonExecutable = "python"; 
 
     public PythonRunnerService(ILogger<PythonRunnerService> logger)
     {
         _logger = logger;
-        // Scripts are located in the source tree for development
-        _scriptsPath = Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "..", "src", "Execution", "Scripts");
         
-        // Ensure directory exists
+        // Robust and simple: Scripts are copied to the output directory by the Execution project.
+        _scriptsPath = Path.Combine(AppContext.BaseDirectory, "Scripts");
+        
+        // Ensure directory existence
         if (!Directory.Exists(_scriptsPath))
         {
             Directory.CreateDirectory(_scriptsPath);
+            _logger.LogWarning("Scripts directory was missing in output, created empty: {Path}", _scriptsPath);
+        }
+        else
+        {
+            _logger.LogInformation("Python script path confirmed at: {Path}", _scriptsPath);
         }
     }
 
@@ -29,18 +35,18 @@ public class PythonRunnerService : IPythonRunnerService
     {
         var fullScriptPath = Path.Combine(_scriptsPath, scriptName);
         
+        _logger.LogDebug("Looking for script at: {Path}", fullScriptPath);
+
         if (!File.Exists(fullScriptPath))
         {
             _logger.LogError("Python script not found at {Path}", fullScriptPath);
-            throw new FileNotFoundException("Python script not found", fullScriptPath);
+            throw new FileNotFoundException($"Python script not found: {scriptName}. Rebuild the solution to copy scripts to the output directory.", fullScriptPath);
         }
-
-        _logger.LogInformation("Executing Python script: {FileName} with args: {Args}", scriptName, arguments);
 
         var startInfo = new ProcessStartInfo
         {
             FileName = PythonExecutable,
-            Arguments = $"\"{fullScriptPath}\" {arguments}",
+            Arguments = $"\"{fullScriptPath}\" \"{arguments}\"",
             RedirectStandardOutput = true,
             RedirectStandardError = true,
             UseShellExecute = false,
@@ -55,27 +61,32 @@ public class PythonRunnerService : IPythonRunnerService
             var outputTask = process.StandardOutput.ReadToEndAsync();
             var errorTask = process.StandardError.ReadToEndAsync();
 
-            await process.WaitForExitAsync();
+            var finished = await Task.WhenAny(process.WaitForExitAsync(), Task.Delay(15000));
+            if (finished != process.WaitForExitAsync())
+            {
+                process.Kill();
+                throw new TimeoutException("The scraper took too long (15s timeout).");
+            }
 
             var output = await outputTask;
             var error = await errorTask;
 
             if (process.ExitCode != 0)
             {
-                _logger.LogError("Python script exited with code {Code}. Error: {Error}", process.ExitCode, error);
+                _logger.LogError("Python script failed (Code {Code}). Error: {Error}", process.ExitCode, error);
                 throw new InvalidOperationException($"Python script failed: {error}");
             }
 
             return output;
         }
-        catch (System.ComponentModel.Win32Exception ex)
+        catch (System.ComponentModel.Win32Exception ex) when (ex.NativeErrorCode == 2)
         {
-            _logger.LogCritical(ex, "Python environment not detected or python executable not in PATH.");
-            throw new InvalidOperationException("Python environment not detected. Please ensure Python is installed and added to PATH.", ex);
+            _logger.LogError(ex, "Python executable not found in PATH.");
+            throw new InvalidOperationException("Python could not be found. Please ensure Python is installed and added to your system's PATH.", ex);
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "Unexpected error executing Python script.");
+            _logger.LogError(ex, "Unexpected error executing {FileName}", scriptName);
             throw;
         }
     }

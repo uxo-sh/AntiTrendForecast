@@ -104,3 +104,78 @@ System.IO.FileNotFoundException: Python script not found
 File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py'
    at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 35
    at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:31:24.951 +03:00 [INF] Anti-Trend Forecast Engine application (WPF) initialized.
+2026-03-27 23:31:25.002 +03:00 [INF] Python script path resolved to: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts
+2026-03-27 23:31:33.675 +03:00 [INF] Processing trend analysis for keyword: AI agents
+2026-03-27 23:31:33.676 +03:00 [ERR] Python script not found at C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+2026-03-27 23:31:33.676 +03:00 [ERR] Error processing trend analysis for AI agents
+System.IO.FileNotFoundException: Python script not found: scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 48
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:31:41.685 +03:00 [INF] Processing trend analysis for keyword: AI Agents
+2026-03-27 23:31:41.685 +03:00 [ERR] Python script not found at C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+2026-03-27 23:31:41.686 +03:00 [ERR] Error processing trend analysis for AI Agents
+System.IO.FileNotFoundException: Python script not found: scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 48
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:31:43.628 +03:00 [INF] Processing trend analysis for keyword: AI Agents
+2026-03-27 23:31:43.628 +03:00 [ERR] Python script not found at C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+2026-03-27 23:31:43.628 +03:00 [ERR] Error processing trend analysis for AI Agents
+System.IO.FileNotFoundException: Python script not found: scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 48
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:31:43.789 +03:00 [INF] Processing trend analysis for keyword: AI Agents
+2026-03-27 23:31:43.789 +03:00 [ERR] Python script not found at C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+2026-03-27 23:31:43.789 +03:00 [ERR] Error processing trend analysis for AI Agents
+System.IO.FileNotFoundException: Python script not found: scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 48
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:31:43.972 +03:00 [INF] Processing trend analysis for keyword: AI Agents
+2026-03-27 23:31:43.972 +03:00 [ERR] Python script not found at C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+2026-03-27 23:31:43.972 +03:00 [ERR] Error processing trend analysis for AI Agents
+System.IO.FileNotFoundException: Python script not found: scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 48
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:32:18.983 +03:00 [INF] Anti-Trend Forecast Engine application (WPF) initialized.
+2026-03-27 23:32:19.031 +03:00 [INF] Python script path resolved to: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts
+2026-03-27 23:32:25.915 +03:00 [INF] Processing trend analysis for keyword: AI Agents
+2026-03-27 23:32:25.916 +03:00 [ERR] Python script not found at C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+2026-03-27 23:32:25.917 +03:00 [ERR] Error processing trend analysis for AI Agents
+System.IO.FileNotFoundException: Python script not found: scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 48
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:34:58.782 +03:00 [INF] Anti-Trend Forecast Engine application (WPF) initialized.
+2026-03-27 23:34:58.832 +03:00 [INF] Python script path confirmed at: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\Scripts
+2026-03-27 23:35:07.468 +03:00 [INF] Processing trend analysis for keyword: Ai Agents
+2026-03-27 23:35:07.469 +03:00 [DBG] Looking for script at: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\Scripts\scraper.py
+2026-03-27 23:35:22.498 +03:00 [ERR] Unexpected error executing scraper.py
+System.TimeoutException: The scraper took too long (15s timeout).
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 68
+2026-03-27 23:35:22.518 +03:00 [ERR] Error processing trend analysis for Ai Agents
+System.TimeoutException: The scraper took too long (15s timeout).
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 68
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:35:37.704 +03:00 [INF] Processing trend analysis for keyword: Ai Agents
+2026-03-27 23:35:37.705 +03:00 [DBG] Looking for script at: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\Scripts\scraper.py
+2026-03-27 23:35:43.170 +03:00 [ERR] Unexpected error executing scraper.py
+System.TimeoutException: The scraper took too long (15s timeout).
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 68
+2026-03-27 23:35:43.171 +03:00 [ERR] Error processing trend analysis for Ai Agents
+System.TimeoutException: The scraper took too long (15s timeout).
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 68
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:35:48.632 +03:00 [INF] Processing trend analysis for keyword: Ai Agents
+2026-03-27 23:35:48.632 +03:00 [DBG] Looking for script at: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\Scripts\scraper.py
+2026-03-27 23:36:03.645 +03:00 [ERR] Unexpected error executing scraper.py
+System.TimeoutException: The scraper took too long (15s timeout).
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 68
+2026-03-27 23:36:03.645 +03:00 [ERR] Error processing trend analysis for Ai Agents
+System.TimeoutException: The scraper took too long (15s timeout).
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 68
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36

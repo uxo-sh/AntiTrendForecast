@@ -11,3 +11,5 @@ C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execu
 C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\obj\Debug\net10.0\refint\AntiTrendForecast.Execution.dll
 C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\obj\Debug\net10.0\AntiTrendForecast.Execution.pdb
 C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\obj\Debug\net10.0\ref\AntiTrendForecast.Execution.dll
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\bin\Debug\net10.0\Scripts\requirements.txt
+C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\bin\Debug\net10.0\Scripts\scraper.py
