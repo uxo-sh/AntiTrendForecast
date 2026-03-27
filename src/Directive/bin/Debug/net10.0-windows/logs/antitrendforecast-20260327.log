@@ -179,3 +179,73 @@ System.TimeoutException: The scraper took too long (15s timeout).
 System.TimeoutException: The scraper took too long (15s timeout).
    at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 68
    at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:38:32.300 +03:00 [INF] Processing trend analysis for keyword: Ai Agents
+2026-03-27 23:38:32.300 +03:00 [DBG] Looking for script at: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\Scripts\scraper.py
+2026-03-27 23:38:47.323 +03:00 [ERR] Unexpected error executing scraper.py
+System.TimeoutException: The scraper took too long (15s timeout).
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 68
+2026-03-27 23:38:47.323 +03:00 [ERR] Error processing trend analysis for Ai Agents
+System.TimeoutException: The scraper took too long (15s timeout).
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 68
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:41:01.428 +03:00 [INF] Anti-Trend Forecast Engine application (WPF) initialized.
+2026-03-27 23:41:16.612 +03:00 [INF] Processing trend analysis for keyword: Ai Agents
+2026-03-27 23:41:23.295 +03:00 [WRN] Python script timed out (30s): scraper.py
+2026-03-27 23:41:23.295 +03:00 [ERR] Error executing Python script scraper.py
+System.TimeoutException: The scraper took too long (30s timeout). Check your network or reduce results count.
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 62
+2026-03-27 23:41:23.309 +03:00 [ERR] Error processing trend analysis for Ai Agents
+System.TimeoutException: The scraper took too long (30s timeout). Check your network or reduce results count.
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 62
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:41:34.090 +03:00 [INF] Processing trend analysis for keyword: Ai Agents
+2026-03-27 23:41:40.744 +03:00 [WRN] Python script timed out (30s): scraper.py
+2026-03-27 23:41:40.744 +03:00 [ERR] Error executing Python script scraper.py
+System.TimeoutException: The scraper took too long (30s timeout). Check your network or reduce results count.
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 62
+2026-03-27 23:41:40.744 +03:00 [ERR] Error processing trend analysis for Ai Agents
+System.TimeoutException: The scraper took too long (30s timeout). Check your network or reduce results count.
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 62
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:46:26.799 +03:00 [INF] Anti-Trend Forecast Engine application (WPF) initialized.
+2026-03-27 23:46:35.147 +03:00 [INF] Processing trend analysis for keyword: AI Agents
+2026-03-27 23:46:37.529 +03:00 [WRN] Python script timed out (30s): scraper.py
+2026-03-27 23:46:37.529 +03:00 [ERR] Error executing Python script scraper.py
+System.TimeoutException: The scraper took too long (30s timeout). Check your network or reduce results count.
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 62
+2026-03-27 23:46:37.536 +03:00 [ERR] Error processing trend analysis for AI Agents
+System.TimeoutException: The scraper took too long (30s timeout). Check your network or reduce results count.
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 62
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:46:39.283 +03:00 [INF] Processing trend analysis for keyword: AI Agents
+2026-03-27 23:46:40.785 +03:00 [WRN] Python script timed out (30s): scraper.py
+2026-03-27 23:46:40.785 +03:00 [ERR] Error executing Python script scraper.py
+System.TimeoutException: The scraper took too long (30s timeout). Check your network or reduce results count.
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 62
+2026-03-27 23:46:40.786 +03:00 [ERR] Error processing trend analysis for AI Agents
+System.TimeoutException: The scraper took too long (30s timeout). Check your network or reduce results count.
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 62
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:46:59.413 +03:00 [INF] Anti-Trend Forecast Engine application (WPF) initialized.
+2026-03-27 23:47:20.483 +03:00 [INF] Processing trend analysis for keyword: AI Agents
+2026-03-27 23:47:22.204 +03:00 [WRN] Python script timed out (30s): scraper.py
+2026-03-27 23:47:22.204 +03:00 [ERR] Error executing Python script scraper.py
+System.TimeoutException: The scraper took too long (30s timeout). Check your network or reduce results count.
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 62
+2026-03-27 23:47:22.211 +03:00 [ERR] Error processing trend analysis for AI Agents
+System.TimeoutException: The scraper took too long (30s timeout). Check your network or reduce results count.
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 62
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:49:14.574 +03:00 [INF] Anti-Trend Forecast Engine application (WPF) initialized.
+2026-03-27 23:49:19.329 +03:00 [INF] Processing trend analysis for keyword: AI
+2026-03-27 23:49:20.672 +03:00 [INF] Analyzing raw scraper data: 130 characters
+2026-03-27 23:49:20.693 +03:00 [INF] Calculated fatigue score: 45.50000000000001 for keyword: AI
+2026-03-27 23:49:20.693 +03:00 [INF] Trend analysis completed successfully for AI
+2026-03-27 23:49:31.416 +03:00 [INF] Processing trend analysis for keyword: Startup
+2026-03-27 23:49:33.182 +03:00 [INF] Analyzing raw scraper data: 135 characters
+2026-03-27 23:49:33.182 +03:00 [INF] Calculated fatigue score: 45.50000000000001 for keyword: Startup
+2026-03-27 23:49:33.182 +03:00 [INF] Trend analysis completed successfully for Startup
+2026-03-27 23:49:42.256 +03:00 [INF] Processing trend analysis for keyword: AI
+2026-03-27 23:49:43.833 +03:00 [INF] Analyzing raw scraper data: 130 characters
+2026-03-27 23:49:43.836 +03:00 [INF] Calculated fatigue score: 45.50000000000001 for keyword: AI
+2026-03-27 23:49:43.836 +03:00 [INF] Trend analysis completed successfully for AI
