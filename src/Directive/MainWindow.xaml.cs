@@ -1,36 +1,31 @@
-using Microsoft.UI.Xaml;
-using AntiTrendForecast.Directive.Services;
-using Serilog;
+using System.Windows;
+using AntiTrendForecast.Directive.Handlers;
+using AntiTrendForecast.Directive.ViewModels;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace AntiTrendForecast.Directive;
 
 /// <summary>
-/// Main dashboard window. Captures user keyword input and triggers analysis.
+/// Interaction logic for MainWindow.xaml (WPF version)
 /// </summary>
-public sealed partial class MainWindow : Window
+public partial class MainWindow : Window
 {
-    private readonly InputValidator _validator = new();
+    public DashboardViewModel ViewModel { get; }
 
-    public MainWindow()
+    public MainWindow(ITrendInputHandler handler)
     {
-        this.InitializeComponent();
+        InitializeComponent();
+        
+        // Constructor injection of the handler, but we use the VM
+        ViewModel = new DashboardViewModel(handler);
+        this.DataContext = ViewModel;
     }
 
-    private void OnAnalyzeClicked(object sender, RoutedEventArgs e)
+    private async void OnAnalyzeClicked(object sender, RoutedEventArgs e)
     {
-        var keyword = KeywordInput.Text?.Trim() ?? string.Empty;
-
-        var validationResult = _validator.ValidateKeyword(keyword);
-        if (!validationResult.IsValid)
+        if (ViewModel.AnalyzeCommand.CanExecute(null))
         {
-            StatusText.Text = $"⚠️ {validationResult.ErrorMessage}";
-            Log.Warning("Invalid keyword input: {Keyword} — {Error}", keyword, validationResult.ErrorMessage);
-            return;
+            await ViewModel.AnalyzeCommand.ExecuteAsync(null);
         }
-
-        StatusText.Text = $"🔄 Analyzing trend: \"{keyword}\"...";
-        Log.Information("Analysis requested for keyword: {Keyword}", keyword);
-
-        // TODO: Wire up Orchestration layer pipeline
     }
 }

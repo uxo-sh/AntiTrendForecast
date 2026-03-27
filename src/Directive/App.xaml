@@ -1,13 +1,8 @@
-<Application
-    x:Class="AntiTrendForecast.Directive.App"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:AntiTrendForecast.Directive">
+<Application x:Class="AntiTrendForecast.Directive.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:AntiTrendForecast.Directive">
     <Application.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
+         <!-- WPF standard resources here -->
     </Application.Resources>
 </Application>

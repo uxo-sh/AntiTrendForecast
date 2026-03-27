@@ -1,42 +1,64 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using AntiTrendForecast.Directive.Services;
+using AntiTrendForecast.Directive.Handlers;
 
 namespace AntiTrendForecast.Directive.ViewModels;
 
 /// <summary>
-/// ViewModel for the main dashboard. Manages keyword input and analysis state.
+/// ViewModel for the main dashboard. Manages keyword input and analysis results.
 /// </summary>
 public partial class DashboardViewModel : ObservableObject
 {
-    private readonly InputValidator _validator = new();
+    private readonly ITrendInputHandler _handler;
 
     [ObservableProperty]
-    public partial string Keyword { get; set; } = string.Empty;
+    private string _keyword = string.Empty;
 
     [ObservableProperty]
-    public partial string StatusMessage { get; set; } = "Enter a keyword above to begin analysis.";
+    private string _statusMessage = "Enter a keyword above to begin analysis.";
 
     [ObservableProperty]
-    public partial bool IsAnalyzing { get; set; }
+    private string _saturationLevel = string.Empty;
+
+    [ObservableProperty]
+    private double _saturationScore;
+
+    [ObservableProperty]
+    private bool _isAnalyzing;
+
+    public DashboardViewModel(ITrendInputHandler handler)
+    {
+        _handler = handler;
+    }
 
     [RelayCommand]
     private async Task AnalyzeAsync()
     {
-        var result = _validator.ValidateKeyword(Keyword);
-        if (!result.IsValid)
+        if (string.IsNullOrWhiteSpace(Keyword))
         {
-            StatusMessage = $"⚠️ {result.ErrorMessage}";
+            StatusMessage = "⚠️ Please enter a keyword.";
             return;
         }
 
         IsAnalyzing = true;
-        StatusMessage = $"🔄 Analyzing trend: \"{Keyword}\"...";
+        StatusMessage = $"🔄 Analyzing market fatigue for \"{Keyword}\"...";
+        SaturationLevel = string.Empty;
 
-        // TODO: Call PipelineOrchestrator from Orchestration layer
-        await Task.Delay(1000); // Placeholder
-
-        StatusMessage = $"✅ Analysis complete for \"{Keyword}\".";
-        IsAnalyzing = false;
+        try
+        {
+            var result = await _handler.ProcessTrendAsync(Keyword);
+            
+            SaturationLevel = result.SaturationLevel;
+            SaturationScore = Math.Round(result.FatigueScore, 1);
+            StatusMessage = $"✅ Analysis complete for \"{Keyword}\". Score: {SaturationScore}";
+        }
+        catch (Exception ex)
+        {
+            StatusMessage = $"❌ Error: {ex.Message}";
+        }
+        finally
+        {
+            IsAnalyzing = false;
+        }
     }
 }

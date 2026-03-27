@@ -1,33 +1,63 @@
-using Microsoft.UI.Xaml;
+using System.Windows;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using Serilog;
+using AntiTrendForecast.Directive.Handlers;
+using AntiTrendForecast.Orchestration.Analysis;
+using AntiTrendForecast.Execution.Python;
+using Path = System.IO.Path;
 
 namespace AntiTrendForecast.Directive;
 
 /// <summary>
-/// Application entry point. Bootstraps Serilog logging and launches the main window.
+/// Interaction logic for App.xaml (WPF version)
 /// </summary>
 public partial class App : Application
 {
-    public App()
-    {
-        this.InitializeComponent();
+    public static IServiceProvider? Services { get; private set; }
 
-        // Configure Serilog
+    protected override void OnStartup(StartupEventArgs e)
+    {
+        base.OnStartup(e);
+
+        // 1. Setup Serilog
+        var logPath = Path.Combine(AppContext.BaseDirectory, "logs", "antitrendforecast-.log");
         Log.Logger = new LoggerConfiguration()
             .MinimumLevel.Debug()
-            .WriteTo.File("logs/antitrendforecast-.log",
+            .WriteTo.File(logPath, 
                 rollingInterval: RollingInterval.Day,
-                retainedFileCountLimit: 30)
+                retainedFileCountLimit: 30,
+                outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level:u3}] {Message:lj}{NewLine}{Exception}")
             .CreateLogger();
 
-        Log.Information("AntiTrendForecast application starting.");
+        // 2. Setup Dependency Injection
+        var serviceCollection = new ServiceCollection();
+        ConfigureServices(serviceCollection);
+        Services = serviceCollection.BuildServiceProvider();
+
+        Log.Information("Anti-Trend Forecast Engine application (WPF) initialized.");
+
+        // 3. Show Main Window
+        var mainWindow = Services?.GetRequiredService<MainWindow>();
+        mainWindow?.Show();
     }
 
-    protected override void OnLaunched(LaunchActivatedEventArgs args)
+    private static void ConfigureServices(IServiceCollection services)
     {
-        _mainWindow = new MainWindow();
-        _mainWindow.Activate();
-    }
+        // Infrastructure
+        services.AddLogging(builder => 
+        {
+            builder.AddSerilog(dispose: true);
+        });
 
-    private Window? _mainWindow;
+        // Layer 1 - Directive
+        services.AddTransient<ITrendInputHandler, TrendInputHandler>();
+        services.AddTransient<MainWindow>();
+
+        // Layer 2 - Orchestration
+        services.AddSingleton<IFatigueAnalyzer, FatigueAnalyzer>();
+
+        // Layer 3 - Execution
+        services.AddSingleton<IPythonRunnerService, PythonRunnerService>();
+    }
 }

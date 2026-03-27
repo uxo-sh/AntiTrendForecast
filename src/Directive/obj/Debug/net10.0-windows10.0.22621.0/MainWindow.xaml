@@ -4,10 +4,16 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="using:AntiTrendForecast.Directive"
     mc:Ignorable="d"
     Title="Anti-Trend Forecast Engine">
 
-    <Grid Padding="32" RowSpacing="16">
+    <Grid x:ConnectionId='2' x:Name="RootGrid" Padding="32" RowSpacing="16">
+        <Grid.Resources>
+            <local:InverseBooleanConverter x:Key="InverseBooleanConverter" />
+            <local:StringToVisibilityConverter x:Key="StringToVisibilityConverter" />
+        </Grid.Resources>
+
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
@@ -22,21 +28,44 @@
 
         <!-- Search Input -->
         <StackPanel Grid.Row="1" Orientation="Horizontal" Spacing="12" HorizontalAlignment="Center">
-            <TextBox x:ConnectionId='4' x:Name="KeywordInput"
+            <TextBox x:ConnectionId='5' x:Name="KeywordInput"
+                     Text="{Binding Keyword, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                      PlaceholderText="Enter a keyword (e.g., AI Agents)"
                      Width="350"/>
-            <Button x:ConnectionId='5' x:Name="AnalyzeButton"
+            <Button x:ConnectionId='6' x:Name="AnalyzeButton"
                     Content="Analyze"
+                    IsEnabled="{Binding IsAnalyzing, Converter={StaticResource InverseBooleanConverter}}"
                     Style="{StaticResource AccentButtonStyle}"
                                             />
         </StackPanel>
 
         <!-- Results Area -->
-        <StackPanel x:ConnectionId='2' Grid.Row="2" x:Name="ResultsPanel" Spacing="8" Padding="0,16,0,0">
-            <TextBlock x:ConnectionId='3' x:Name="StatusText"
-                       Text="Enter a keyword above to begin analysis."
+        <StackPanel x:ConnectionId='3' Grid.Row="2" x:Name="ResultsPanel" Spacing="12" Padding="0,16,0,0">
+            <TextBlock x:ConnectionId='4' x:Name="StatusText"
+                       Text="{Binding StatusMessage}"
                        Style="{StaticResource BodyTextBlockStyle}"
+                       HorizontalAlignment="Center"
                        Foreground="{ThemeResource TextFillColorSecondaryBrush}"/>
+
+            <!-- Saturation Result -->
+            <StackPanel Visibility="{Binding SaturationLevel, Converter={StaticResource StringToVisibilityConverter}}"
+                        HorizontalAlignment="Center" Spacing="8">
+                <TextBlock Text="Market Saturation Level:" 
+                           Style="{StaticResource SubtitleTextBlockStyle}" 
+                           HorizontalAlignment="Center"/>
+                <TextBlock Text="{Binding SaturationLevel}" 
+                           Style="{StaticResource TitleTextBlockStyle}" 
+                           Foreground="{ThemeResource SystemFillColorSuccessBrush}"
+                           HorizontalAlignment="Center"/>
+                
+                <ProgressBar Value="{Binding SaturationScore}" 
+                             Maximum="100" 
+                             Width="300" 
+                             Margin="0,8,0,0"/>
+            </StackPanel>
+
+            <ProgressRing IsActive="{Binding IsAnalyzing}" 
+                          Width="48" Height="48" Margin="0,20,0,0"/>
         </StackPanel>
     </Grid>
 </Window>

@@ -1,0 +1,106 @@
+2026-03-27 23:14:30.902 +03:00 [INF] Anti-Trend Forecast Engine application (WPF) initialized.
+2026-03-27 23:14:49.118 +03:00 [INF] Processing trend analysis for keyword: AI Agents
+2026-03-27 23:14:49.120 +03:00 [ERR] Python script not found at C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py
+2026-03-27 23:14:49.121 +03:00 [ERR] Error processing trend analysis for AI Agents
+System.IO.FileNotFoundException: Python script not found
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 35
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:14:50.511 +03:00 [INF] Processing trend analysis for keyword: AI Agents
+2026-03-27 23:14:50.511 +03:00 [ERR] Python script not found at C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py
+2026-03-27 23:14:50.511 +03:00 [ERR] Error processing trend analysis for AI Agents
+System.IO.FileNotFoundException: Python script not found
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 35
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:14:50.527 +03:00 [INF] Processing trend analysis for keyword: AI Agents
+2026-03-27 23:14:50.527 +03:00 [ERR] Python script not found at C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py
+2026-03-27 23:14:50.527 +03:00 [ERR] Error processing trend analysis for AI Agents
+System.IO.FileNotFoundException: Python script not found
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 35
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:15:02.951 +03:00 [INF] Processing trend analysis for keyword: "AI Agents"
+2026-03-27 23:15:02.951 +03:00 [ERR] Python script not found at C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py
+2026-03-27 23:15:02.951 +03:00 [ERR] Error processing trend analysis for "AI Agents"
+System.IO.FileNotFoundException: Python script not found
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 35
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:15:08.855 +03:00 [INF] Processing trend analysis for keyword: AI Agents
+2026-03-27 23:15:08.855 +03:00 [ERR] Python script not found at C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py
+2026-03-27 23:15:08.855 +03:00 [ERR] Error processing trend analysis for AI Agents
+System.IO.FileNotFoundException: Python script not found
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 35
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:15:09.103 +03:00 [INF] Processing trend analysis for keyword: AI Agents
+2026-03-27 23:15:09.103 +03:00 [ERR] Python script not found at C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py
+2026-03-27 23:15:09.104 +03:00 [ERR] Error processing trend analysis for AI Agents
+System.IO.FileNotFoundException: Python script not found
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 35
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:15:09.263 +03:00 [INF] Processing trend analysis for keyword: AI Agents
+2026-03-27 23:15:09.263 +03:00 [ERR] Python script not found at C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py
+2026-03-27 23:15:09.263 +03:00 [ERR] Error processing trend analysis for AI Agents
+System.IO.FileNotFoundException: Python script not found
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 35
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:15:11.431 +03:00 [INF] Processing trend analysis for keyword: AI Agents
+2026-03-27 23:15:11.431 +03:00 [ERR] Python script not found at C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py
+2026-03-27 23:15:11.431 +03:00 [ERR] Error processing trend analysis for AI Agents
+System.IO.FileNotFoundException: Python script not found
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 35
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:15:11.727 +03:00 [INF] Processing trend analysis for keyword: AI Agents
+2026-03-27 23:15:11.727 +03:00 [ERR] Python script not found at C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py
+2026-03-27 23:15:11.727 +03:00 [ERR] Error processing trend analysis for AI Agents
+System.IO.FileNotFoundException: Python script not found
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 35
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:15:18.382 +03:00 [INF] Processing trend analysis for keyword: AI Agents
+2026-03-27 23:15:18.382 +03:00 [ERR] Python script not found at C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py
+2026-03-27 23:15:18.383 +03:00 [ERR] Error processing trend analysis for AI Agents
+System.IO.FileNotFoundException: Python script not found
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 35
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:15:18.694 +03:00 [INF] Processing trend analysis for keyword: AI Agents
+2026-03-27 23:15:18.694 +03:00 [ERR] Python script not found at C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py
+2026-03-27 23:15:18.695 +03:00 [ERR] Error processing trend analysis for AI Agents
+System.IO.FileNotFoundException: Python script not found
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 35
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:15:18.838 +03:00 [INF] Processing trend analysis for keyword: AI Agents
+2026-03-27 23:15:18.839 +03:00 [ERR] Python script not found at C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py
+2026-03-27 23:15:18.839 +03:00 [ERR] Error processing trend analysis for AI Agents
+System.IO.FileNotFoundException: Python script not found
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 35
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:15:22.126 +03:00 [INF] Processing trend analysis for keyword: AI Agents
+2026-03-27 23:15:22.126 +03:00 [ERR] Python script not found at C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py
+2026-03-27 23:15:22.126 +03:00 [ERR] Error processing trend analysis for AI Agents
+System.IO.FileNotFoundException: Python script not found
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 35
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:15:22.303 +03:00 [INF] Processing trend analysis for keyword: AI Agents
+2026-03-27 23:15:22.305 +03:00 [ERR] Python script not found at C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py
+2026-03-27 23:15:22.306 +03:00 [ERR] Error processing trend analysis for AI Agents
+System.IO.FileNotFoundException: Python script not found
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 35
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
+2026-03-27 23:15:22.455 +03:00 [INF] Processing trend analysis for keyword: AI Agents
+2026-03-27 23:15:22.455 +03:00 [ERR] Python script not found at C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py
+2026-03-27 23:15:22.455 +03:00 [ERR] Error processing trend analysis for AI Agents
+System.IO.FileNotFoundException: Python script not found
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\bin\Debug\net10.0-windows\..\..\..\..\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptName, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 35
+   at AntiTrendForecast.Directive.Handlers.TrendInputHandler.ProcessTrendAsync(String keyword) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Directive\Handlers\TrendInputHandler.cs:line 36
