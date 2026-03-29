@@ -51,9 +51,9 @@ public class FatigueAnalyzer : IFatigueAnalyzer
             // Refined Level labeling: Account for confidence
             string level = DetermineLevel(score, confidence);
 
-            _logger.LogInformation("Calculated base fatigue score: {Score} for keyword: {Keyword}", score, data.Keyword);
+            _logger.LogInformation("Calculated composite fatigue score: {Score} for keyword: {Keyword}", score, data.Keyword);
 
-            var initialResult = new FatigueResult(data.Keyword, score, level, rawJson);
+            var initialResult = new FatigueResult(data.Keyword, score, level, data.Source);
             
             // Phase 2: Pivot Analysis
             var pivot = _pivotCalculator.CalculatePivot(initialResult, historyList);
@@ -74,23 +74,27 @@ public class FatigueAnalyzer : IFatigueAnalyzer
 
     private double CalculateScore(ScraperData data)
     {
-        // 1. Volume Influence (0-100k normalized)
-        double volumeFactor = Math.Min(data.Mentions / 100000.0, 1.0);
+        // Cross-Source Synthesis:
+        // 1. Primary Volume (HN)
+        double primaryVolume = Math.Min(data.Mentions / 100000.0, 1.0);
         
-        // 2. Hype Intensity (Average points per hit - 0-600 normalized)
+        // 2. Secondary Volume (Simulated Reddit/GitHub Trends)
+        double secondaryVolume = Math.Min(data.SecondaryMentions / 100000.0, 1.0);
+        
+        // 3. Hype Intensity (Normalized point density)
         double hypeFactor = data.SentimentScore * 0.5; 
 
-        // 3. Momentum (Growth rate from scraper)
+        // 4. Momentum (Growth scale)
         double momentumFactor = (data.GrowthRate + 0.5); 
 
-        // Weighted Score: Volume is anchor (50%), Hype (30%), Momentum (20%)
-        return Math.Round((volumeFactor * 0.5 + hypeFactor * 0.3 + momentumFactor * 0.2) * 100.0, 1);
+        // Weighted Score: 40% Primary, 20% Secondary, 20% Hype, 20% Momentum
+        double compositeScore = (primaryVolume * 0.4 + secondaryVolume * 0.2 + hypeFactor * 0.2 + momentumFactor * 0.2) * 100.0;
+        
+        return Math.Clamp(Math.Round(compositeScore, 1), 0, 100);
     }
 
     private string DetermineLevel(double score, double confidence)
     {
-        if (confidence < 15) return "Initial Scan - Data Breadth Required";
-
         string baseStatus = score switch
         {
             >= 80 => "Critical Saturation",
@@ -100,7 +104,10 @@ public class FatigueAnalyzer : IFatigueAnalyzer
             _ => "Emerging Niche"
         };
 
-        return confidence >= 60 ? $"Verified {baseStatus}" : $"Estimated {baseStatus}";
+        if (confidence >= 85) return $"Verified {baseStatus}";
+        if (confidence >= 50) return $"Developing {baseStatus} Verdict";
+        if (confidence >= 20) return $"Emerging {baseStatus} Pattern";
+        return $"Initial Scan - {baseStatus} (Low Confidence)";
     }
 
     // Internal model for parsing
@@ -108,5 +115,8 @@ public class FatigueAnalyzer : IFatigueAnalyzer
         [property: JsonPropertyName("keyword")] string Keyword, 
         [property: JsonPropertyName("mentions")] int Mentions, 
         [property: JsonPropertyName("sentiment_score")] double SentimentScore, 
-        [property: JsonPropertyName("growth_rate")] double GrowthRate);
+        [property: JsonPropertyName("growth_rate")] double GrowthRate,
+        [property: JsonPropertyName("secondary_mentions")] int SecondaryMentions,
+        [property: JsonPropertyName("secondary_sentiment")] double SecondarySentiment,
+        [property: JsonPropertyName("source")] string Source);
 }

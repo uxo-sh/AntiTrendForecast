@@ -1,15 +1,16 @@
 using AntiTrendForecast.Execution.Models;
+using System.Collections.Generic;
 
 namespace AntiTrendForecast.Orchestration.Analysis;
 
 /// <summary>
-/// Result of the fatigue analysis, including historical context.
+/// Result of a fatigue analysis, including saturation and potential pivot markers.
 /// </summary>
 public record FatigueResult(
     string Keyword, 
     double FatigueScore, 
     string SaturationLevel, 
-    string RawJson,
+    string Source,
     double PivotScore = 0,
     string HistoricalTrend = "N/A",
     double ConfidenceScore = 0);
@@ -20,10 +21,12 @@ public record FatigueResult(
 public interface IFatigueAnalyzer
 {
     /// <summary>
-    /// Analyzes raw JSON data and calculates the saturation level, optionally considering history.
+    /// Analyzes raw JSON data and produces a fatigue result.
     /// </summary>
-    /// <param name="rawJson">The raw JSON string from the scraper.</param>
-    /// <param name="history">Optional historical trend records.</param>
-    /// <returns>A FatigueResult containing the saturation score, level, and pivot analysis.</returns>
+    FatigueResult Analyze(string rawJson);
+
+    /// <summary>
+    /// Analyzes raw JSON data with historical context.
+    /// </summary>
     FatigueResult Analyze(string rawJson, IEnumerable<TrendData> history);
 }

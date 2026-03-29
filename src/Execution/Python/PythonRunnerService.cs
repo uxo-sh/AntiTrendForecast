@@ -1,5 +1,7 @@
 using System.Diagnostics;
 using Microsoft.Extensions.Logging;
+using System.IO;
+using System.Threading.Tasks;
 
 namespace AntiTrendForecast.Execution.Python;
 
@@ -10,7 +12,6 @@ namespace AntiTrendForecast.Execution.Python;
 public class PythonRunnerService : IPythonRunnerService
 {
     private readonly ILogger<PythonRunnerService> _logger;
-    private readonly string _scriptsPath;
     
     // We try 'python' first, then 'py' as a fallback on Windows
     private string _currentExecutable = "python"; 
@@ -18,25 +19,19 @@ public class PythonRunnerService : IPythonRunnerService
     public PythonRunnerService(ILogger<PythonRunnerService> logger)
     {
         _logger = logger;
-        _scriptsPath = Path.Combine(AppContext.BaseDirectory, "Scripts");
-        
-        if (!Directory.Exists(_scriptsPath))
-        {
-            Directory.CreateDirectory(_scriptsPath);
-        }
     }
 
-    public async Task<string> ExecuteScriptAsync(string scriptName, string arguments = "")
+    public async Task<string> ExecuteScriptAsync(string scriptPath, string arguments = "")
     {
         try 
         {
-            return await ExecuteInternalAsync(_currentExecutable, scriptName, arguments);
+            return await ExecuteInternalAsync(_currentExecutable, scriptPath, arguments);
         }
         catch (TimeoutException) when (_currentExecutable == "python")
         {
             _logger.LogWarning("Python timed out. Switching to 'py' launcher fallback.");
             _currentExecutable = "py";
-            return await ExecuteInternalAsync(_currentExecutable, scriptName, arguments);
+            return await ExecuteInternalAsync(_currentExecutable, scriptPath, arguments);
         }
         catch (Exception ex)
         {
@@ -46,13 +41,14 @@ public class PythonRunnerService : IPythonRunnerService
         }
     }
 
-    private async Task<string> ExecuteInternalAsync(string executable, string scriptName, string arguments)
+    private async Task<string> ExecuteInternalAsync(string executable, string scriptPath, string arguments)
     {
-        var fullScriptPath = Path.Combine(_scriptsPath, scriptName);
+        // Resolve absolute path
+        string fullScriptPath = Path.IsPathRooted(scriptPath) ? scriptPath : Path.GetFullPath(scriptPath);
         
         if (!File.Exists(fullScriptPath))
         {
-            throw new FileNotFoundException($"Script not found: {scriptName}", fullScriptPath);
+            throw new FileNotFoundException($"Script not found: {scriptPath}", fullScriptPath);
         }
 
         var startInfo = new ProcessStartInfo
@@ -102,14 +98,16 @@ public class PythonRunnerService : IPythonRunnerService
 
     private string CreateMockJson(string keyword, string reason)
     {
-        // Safe fallback for prototype
+        // Safe fallback for prototype - Shared Phase 4 Schema
         var random = new Random();
         var data = new 
         {
             keyword = keyword,
-            mentions = random.Next(100, 500),
-            sentiment_score = random.NextDouble() * 2 - 1,
-            growth_rate = random.NextDouble() * 0.6 - 0.3,
+            mentions = random.Next(200, 800),
+            sentiment_score = random.NextDouble() * 0.5,
+            growth_rate = random.NextDouble() * 0.4 - 0.2,
+            secondary_mentions = random.Next(200, 800),
+            secondary_sentiment = random.NextDouble() * 0.5,
             source = $"Simulation Fallback ({reason})"
         };
         return System.Text.Json.JsonSerializer.Serialize(data);

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AntiTrendForecast.Orchestration")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10f3f01fd9075621d77c1ecc5c2d4a342c620bf3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd492e820c4281a2c6a6046d6195e06eb39dd298")]
 [assembly: System.Reflection.AssemblyProductAttribute("AntiTrendForecast.Orchestration")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AntiTrendForecast.Orchestration")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

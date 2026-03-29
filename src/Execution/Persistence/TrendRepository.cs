@@ -1,69 +1,60 @@
+using System.Collections.Generic;
+using System.Threading.Tasks;
 using Microsoft.Data.Sqlite;
 using Dapper;
 using AntiTrendForecast.Execution.Models;
-using Microsoft.Extensions.Logging;
 
 namespace AntiTrendForecast.Execution.Persistence;
 
 /// <summary>
-/// Implementation of ITrendRepository using SQLite and Dapper.
+/// Repository for persisting trend results in a SQLite database.
 /// </summary>
 public class TrendRepository : ITrendRepository
 {
-    private readonly ILogger<TrendRepository> _logger;
     private readonly string _connectionString;
 
-    public TrendRepository(ILogger<TrendRepository> logger)
+    public TrendRepository(string dbPath = "antitrend.db")
     {
-        _logger = logger;
-        // SQLite database file is relative to the execution directory
-        var dbPath = Path.Combine(AppContext.BaseDirectory, "antitrend.db");
         _connectionString = $"Data Source={dbPath}";
     }
 
     public async Task InitializeAsync()
     {
-        _logger.LogInformation("Initializing SQLite database at {Path}", _connectionString);
-
         using var connection = new SqliteConnection(_connectionString);
-        await connection.ExecuteAsync(@"
+        await connection.OpenAsync();
+
+        const string sql = @"
             CREATE TABLE IF NOT EXISTS Trends (
                 Id INTEGER PRIMARY KEY AUTOINCREMENT,
                 Keyword TEXT NOT NULL,
-                ScrapedAt DATETIME NOT NULL,
-                MentionVolume REAL NOT NULL,
-                SentimentScore REAL NOT NULL,
-                FatigueIndex REAL NOT NULL,
-                Source TEXT NOT NULL
-            );
-            CREATE INDEX IF NOT EXISTS IDX_Trends_Keyword ON Trends(Keyword);
-        ");
+                FatigueIndex REAL,
+                SentimentScore REAL,
+                GrowthRate REAL,
+                Source TEXT,
+                RawJson TEXT,
+                ScrapedAt DATETIME DEFAULT CURRENT_TIMESTAMP
+            );";
+
+        await connection.ExecuteAsync(sql);
+
+        // Simple migration for Phase 4
+        try { await connection.ExecuteAsync("ALTER TABLE Trends ADD COLUMN Source TEXT;"); } catch { /* Column likely exists */ }
     }
 
     public async Task<int> SaveTrendAsync(TrendData data)
     {
-        _logger.LogDebug("Saving trend analysis for keyword '{Keyword}'", data.Keyword);
-
         using var connection = new SqliteConnection(_connectionString);
         const string sql = @"
-            INSERT INTO Trends (Keyword, ScrapedAt, MentionVolume, SentimentScore, FatigueIndex, Source)
-            VALUES (@Keyword, @ScrapedAt, @MentionVolume, @SentimentScore, @FatigueIndex, @Source);
+            INSERT INTO Trends (Keyword, FatigueIndex, SentimentScore, GrowthRate, Source, RawJson) 
+            VALUES (@Keyword, @FatigueIndex, @SentimentScore, @GrowthRate, @Source, @RawJson);
             SELECT last_insert_rowid();";
-
         return await connection.ExecuteScalarAsync<int>(sql, data);
     }
 
-    public async Task<IEnumerable<TrendData>> GetHistoryAsync(string keyword, int limit = 10)
+    public async Task<IEnumerable<TrendData>> GetHistoryAsync(string keyword, int limit = 50)
     {
-        _logger.LogDebug("Retrieving history for keyword '{Keyword}'", keyword);
-
         using var connection = new SqliteConnection(_connectionString);
-        const string sql = @"
-            SELECT * FROM Trends 
-            WHERE Keyword = @keyword 
-            ORDER BY ScrapedAt DESC 
-            LIMIT @limit";
-
+        const string sql = "SELECT * FROM Trends WHERE Keyword = @keyword ORDER BY ScrapedAt DESC LIMIT @limit";
         return await connection.QueryAsync<TrendData>(sql, new { keyword, limit });
     }
 

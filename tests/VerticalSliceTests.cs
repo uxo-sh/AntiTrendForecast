@@ -6,6 +6,8 @@ using AntiTrendForecast.Orchestration.Analysis;
 using AntiTrendForecast.Execution.Python;
 using AntiTrendForecast.Execution.Persistence;
 using AntiTrendForecast.Execution.Models;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace AntiTrendForecast.Tests;
 
@@ -29,18 +31,19 @@ public class VerticalSliceTests
         var analyzer = new FatigueAnalyzer(mockLoggerAnalyzer.Object, pivotCalculator, synthesizer);
         var mockRunner = new Mock<IPythonRunnerService>();
 
-        string mockJson = "{\"keyword\": \"AI Agents\", \"mentions\": 450, \"sentiment_score\": -0.5, \"growth_rate\": -0.2}";
+        // Multi-source JSON (Phase 4)
+        string mockJson = "{\"keyword\": \"AI\", \"mentions\": 450, \"sentiment_score\": 0.5, \"growth_rate\": 0.1, \"secondary_mentions\": 400, \"secondary_sentiment\": 0.4, \"source\": \"Test\"}";
         mockRunner.Setup(r => r.ExecuteScriptAsync(It.IsAny<string>(), It.IsAny<string>()))
                   .ReturnsAsync(mockJson);
 
         var handler = new TrendInputHandler(mockLoggerHandler.Object, analyzer, mockRunner.Object, mockRepo.Object);
 
         // 2. Act
-        var result = await handler.ProcessTrendAsync("AI Agents");
+        var result = await handler.ProcessTrendAsync("AI");
 
         // 3. Assert
         Assert.NotNull(result);
-        Assert.Equal("AI Agents", result.Keyword);
+        Assert.Equal("AI", result.Keyword);
         Assert.True(result.ConfidenceScore > 0);
         mockRepo.Verify(r => r.SaveTrendAsync(It.IsAny<TrendData>()), Times.Once);
     }
@@ -63,8 +66,10 @@ public class VerticalSliceTests
         var score = synthesizer.CalculateConfidence(history);
 
         // Assert
-        // 3 points = 45% volume. Low variance = high stability score.
-        // Capped at 80% for small datasets, so ~75-77 is expected here.
-        Assert.True(score > 70);
+        // In Phase 4:
+        // 3 points = 30% volume. 
+        // Stability Score ~ 40%.
+        // Total should be around 70%.
+        Assert.True(score >= 60); 
     }
 }

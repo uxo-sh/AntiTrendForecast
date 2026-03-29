@@ -1,0 +1,848 @@
+2026-03-29 22:12:36.000 +03:00 [INF] Anti-Trend Forecast Engine application (WPF) initialized.
+2026-03-29 22:12:50.039 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:12:50.096 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:12:50.159 +03:00 [INF] Analyzing raw scraper data: 356 characters
+2026-03-29 22:12:50.174 +03:00 [INF] Calculated composite fatigue score: 17.4 for keyword: IA
+2026-03-29 22:12:56.043 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:12:56.043 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:12:56.044 +03:00 [INF] Analyzing raw scraper data: 357 characters
+2026-03-29 22:12:56.048 +03:00 [DBG] Calculated Trend Confidence: 10%
+2026-03-29 22:12:56.048 +03:00 [INF] Calculated composite fatigue score: 10.5 for keyword: IA
+2026-03-29 22:12:56.050 +03:00 [INF] Calculated Pivot Score: -6.899999999999999 for IA
+2026-03-29 22:12:56.825 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:12:56.826 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:12:56.826 +03:00 [INF] Analyzing raw scraper data: 358 characters
+2026-03-29 22:12:56.827 +03:00 [DBG] Calculated Trend Confidence: 20%
+2026-03-29 22:12:56.827 +03:00 [INF] Calculated composite fatigue score: 11.3 for keyword: IA
+2026-03-29 22:12:56.853 +03:00 [INF] Calculated Pivot Score: -2.6499999999999986 for IA
+2026-03-29 22:12:57.315 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:12:57.316 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:12:57.316 +03:00 [INF] Analyzing raw scraper data: 359 characters
+2026-03-29 22:12:57.322 +03:00 [DBG] Calculated Trend Confidence: 62.7%
+2026-03-29 22:12:57.322 +03:00 [INF] Calculated composite fatigue score: 10 for keyword: IA
+2026-03-29 22:12:57.322 +03:00 [INF] Calculated Pivot Score: -3.066666666666668 for IA
+2026-03-29 22:12:57.574 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:12:57.574 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:12:57.575 +03:00 [INF] Analyzing raw scraper data: 359 characters
+2026-03-29 22:12:57.575 +03:00 [DBG] Calculated Trend Confidence: 73.1%
+2026-03-29 22:12:57.575 +03:00 [INF] Calculated composite fatigue score: 7.9 for keyword: IA
+2026-03-29 22:12:57.575 +03:00 [INF] Calculated Pivot Score: -4.4 for IA
+2026-03-29 22:12:57.995 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:12:57.996 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:12:57.997 +03:00 [INF] Analyzing raw scraper data: 356 characters
+2026-03-29 22:12:57.997 +03:00 [DBG] Calculated Trend Confidence: 72.2%
+2026-03-29 22:12:57.997 +03:00 [INF] Calculated composite fatigue score: 16 for keyword: IA
+2026-03-29 22:12:57.997 +03:00 [INF] Calculated Pivot Score: 4.58 for IA
+2026-03-29 22:12:58.463 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:12:58.464 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:12:58.465 +03:00 [INF] Analyzing raw scraper data: 357 characters
+2026-03-29 22:12:58.465 +03:00 [DBG] Calculated Trend Confidence: 71.5%
+2026-03-29 22:12:58.465 +03:00 [INF] Calculated composite fatigue score: 14.7 for keyword: IA
+2026-03-29 22:12:58.465 +03:00 [INF] Calculated Pivot Score: 2.5166666666666675 for IA
+2026-03-29 22:12:58.715 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:12:58.716 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:12:58.716 +03:00 [INF] Analyzing raw scraper data: 356 characters
+2026-03-29 22:12:58.716 +03:00 [DBG] Calculated Trend Confidence: 72%
+2026-03-29 22:12:58.716 +03:00 [INF] Calculated composite fatigue score: 10 for keyword: IA
+2026-03-29 22:12:58.717 +03:00 [INF] Calculated Pivot Score: -2.5428571428571445 for IA
+2026-03-29 22:12:58.994 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:12:58.995 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:12:58.995 +03:00 [INF] Analyzing raw scraper data: 357 characters
+2026-03-29 22:12:58.995 +03:00 [DBG] Calculated Trend Confidence: 72.4%
+2026-03-29 22:12:58.995 +03:00 [INF] Calculated composite fatigue score: 12 for keyword: IA
+2026-03-29 22:12:58.995 +03:00 [INF] Calculated Pivot Score: -0.22499999999999787 for IA
+2026-03-29 22:12:59.572 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:12:59.573 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:12:59.573 +03:00 [INF] Analyzing raw scraper data: 357 characters
+2026-03-29 22:12:59.573 +03:00 [DBG] Calculated Trend Confidence: 73.1%
+2026-03-29 22:12:59.573 +03:00 [INF] Calculated composite fatigue score: 12.6 for keyword: IA
+2026-03-29 22:12:59.573 +03:00 [INF] Calculated Pivot Score: 0.40000000000000213 for IA
+2026-03-29 22:13:00.014 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:00.016 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:00.016 +03:00 [INF] Analyzing raw scraper data: 356 characters
+2026-03-29 22:13:00.017 +03:00 [DBG] Calculated Trend Confidence: 73.7%
+2026-03-29 22:13:00.017 +03:00 [INF] Calculated composite fatigue score: 7.3 for keyword: IA
+2026-03-29 22:13:00.017 +03:00 [INF] Calculated Pivot Score: -4.94 for IA
+2026-03-29 22:13:00.313 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:00.314 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:00.314 +03:00 [INF] Analyzing raw scraper data: 356 characters
+2026-03-29 22:13:00.315 +03:00 [DBG] Calculated Trend Confidence: 74.6%
+2026-03-29 22:13:00.315 +03:00 [INF] Calculated composite fatigue score: 15 for keyword: IA
+2026-03-29 22:13:00.315 +03:00 [INF] Calculated Pivot Score: 3.7699999999999996 for IA
+2026-03-29 22:13:00.592 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:00.592 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:00.593 +03:00 [INF] Analyzing raw scraper data: 356 characters
+2026-03-29 22:13:00.593 +03:00 [DBG] Calculated Trend Confidence: 73.7%
+2026-03-29 22:13:00.593 +03:00 [INF] Calculated composite fatigue score: 15.3 for keyword: IA
+2026-03-29 22:13:00.593 +03:00 [INF] Calculated Pivot Score: 3.700000000000001 for IA
+2026-03-29 22:13:00.878 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:00.879 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:00.879 +03:00 [INF] Analyzing raw scraper data: 356 characters
+2026-03-29 22:13:00.880 +03:00 [DBG] Calculated Trend Confidence: 73%
+2026-03-29 22:13:00.880 +03:00 [INF] Calculated composite fatigue score: 10.7 for keyword: IA
+2026-03-29 22:13:00.880 +03:00 [INF] Calculated Pivot Score: -1.3800000000000026 for IA
+2026-03-29 22:13:01.245 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:01.246 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:01.246 +03:00 [INF] Analyzing raw scraper data: 358 characters
+2026-03-29 22:13:01.246 +03:00 [DBG] Calculated Trend Confidence: 74.1%
+2026-03-29 22:13:01.246 +03:00 [INF] Calculated composite fatigue score: 14.1 for keyword: IA
+2026-03-29 22:13:01.246 +03:00 [INF] Calculated Pivot Score: 2.549999999999999 for IA
+2026-03-29 22:13:01.484 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:01.484 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:01.484 +03:00 [INF] Analyzing raw scraper data: 359 characters
+2026-03-29 22:13:01.484 +03:00 [DBG] Calculated Trend Confidence: 74.9%
+2026-03-29 22:13:01.484 +03:00 [INF] Calculated composite fatigue score: 10.4 for keyword: IA
+2026-03-29 22:13:01.484 +03:00 [INF] Calculated Pivot Score: -1.7699999999999996 for IA
+2026-03-29 22:13:01.911 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:01.912 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:01.913 +03:00 [INF] Analyzing raw scraper data: 357 characters
+2026-03-29 22:13:01.913 +03:00 [DBG] Calculated Trend Confidence: 75.1%
+2026-03-29 22:13:01.913 +03:00 [INF] Calculated composite fatigue score: 13.4 for keyword: IA
+2026-03-29 22:13:01.913 +03:00 [INF] Calculated Pivot Score: 1.1900000000000013 for IA
+2026-03-29 22:13:02.313 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:02.314 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:02.314 +03:00 [INF] Analyzing raw scraper data: 356 characters
+2026-03-29 22:13:02.315 +03:00 [DBG] Calculated Trend Confidence: 75%
+2026-03-29 22:13:02.315 +03:00 [INF] Calculated composite fatigue score: 17.8 for keyword: IA
+2026-03-29 22:13:02.315 +03:00 [INF] Calculated Pivot Score: 5.450000000000001 for IA
+2026-03-29 22:13:02.537 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:02.538 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:02.539 +03:00 [INF] Analyzing raw scraper data: 357 characters
+2026-03-29 22:13:02.539 +03:00 [DBG] Calculated Trend Confidence: 73.6%
+2026-03-29 22:13:02.539 +03:00 [INF] Calculated composite fatigue score: 14 for keyword: IA
+2026-03-29 22:13:02.539 +03:00 [INF] Calculated Pivot Score: 0.870000000000001 for IA
+2026-03-29 22:13:03.707 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:03.708 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:03.708 +03:00 [INF] Analyzing raw scraper data: 358 characters
+2026-03-29 22:13:03.708 +03:00 [DBG] Calculated Trend Confidence: 73.7%
+2026-03-29 22:13:03.708 +03:00 [INF] Calculated composite fatigue score: 11.1 for keyword: IA
+2026-03-29 22:13:03.708 +03:00 [INF] Calculated Pivot Score: -1.959999999999999 for IA
+2026-03-29 22:13:04.366 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:04.367 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:04.367 +03:00 [INF] Analyzing raw scraper data: 357 characters
+2026-03-29 22:13:04.367 +03:00 [DBG] Calculated Trend Confidence: 73.5%
+2026-03-29 22:13:04.367 +03:00 [INF] Calculated composite fatigue score: 9.1 for keyword: IA
+2026-03-29 22:13:04.367 +03:00 [INF] Calculated Pivot Score: -3.8100000000000005 for IA
+2026-03-29 22:13:04.639 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:04.640 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:04.640 +03:00 [INF] Analyzing raw scraper data: 357 characters
+2026-03-29 22:13:04.640 +03:00 [DBG] Calculated Trend Confidence: 72.9%
+2026-03-29 22:13:04.640 +03:00 [INF] Calculated composite fatigue score: 12.7 for keyword: IA
+2026-03-29 22:13:04.640 +03:00 [INF] Calculated Pivot Score: -0.05000000000000071 for IA
+2026-03-29 22:13:04.850 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:04.850 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:04.851 +03:00 [INF] Analyzing raw scraper data: 357 characters
+2026-03-29 22:13:04.851 +03:00 [DBG] Calculated Trend Confidence: 73.3%
+2026-03-29 22:13:04.851 +03:00 [INF] Calculated composite fatigue score: 10.6 for keyword: IA
+2026-03-29 22:13:04.851 +03:00 [INF] Calculated Pivot Score: -1.8900000000000006 for IA
+2026-03-29 22:13:05.196 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:05.196 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:05.196 +03:00 [INF] Analyzing raw scraper data: 357 characters
+2026-03-29 22:13:05.196 +03:00 [DBG] Calculated Trend Confidence: 73.7%
+2026-03-29 22:13:05.196 +03:00 [INF] Calculated composite fatigue score: 10.3 for keyword: IA
+2026-03-29 22:13:05.196 +03:00 [INF] Calculated Pivot Score: -1.75 for IA
+2026-03-29 22:13:05.468 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:05.469 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:05.469 +03:00 [INF] Analyzing raw scraper data: 355 characters
+2026-03-29 22:13:05.469 +03:00 [DBG] Calculated Trend Confidence: 75.2%
+2026-03-29 22:13:05.469 +03:00 [INF] Calculated composite fatigue score: 15.5 for keyword: IA
+2026-03-29 22:13:05.470 +03:00 [INF] Calculated Pivot Score: 3.1500000000000004 for IA
+2026-03-29 22:13:05.700 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:05.701 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:05.701 +03:00 [INF] Analyzing raw scraper data: 358 characters
+2026-03-29 22:13:05.701 +03:00 [DBG] Calculated Trend Confidence: 74.5%
+2026-03-29 22:13:05.701 +03:00 [INF] Calculated composite fatigue score: 13.2 for keyword: IA
+2026-03-29 22:13:05.701 +03:00 [INF] Calculated Pivot Score: 0.6400000000000006 for IA
+2026-03-29 22:13:05.910 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:05.911 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:05.911 +03:00 [INF] Analyzing raw scraper data: 358 characters
+2026-03-29 22:13:05.911 +03:00 [DBG] Calculated Trend Confidence: 74.9%
+2026-03-29 22:13:05.911 +03:00 [INF] Calculated composite fatigue score: 8.4 for keyword: IA
+2026-03-29 22:13:05.911 +03:00 [INF] Calculated Pivot Score: -4.439999999999998 for IA
+2026-03-29 22:13:06.121 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:06.121 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:06.122 +03:00 [INF] Analyzing raw scraper data: 358 characters
+2026-03-29 22:13:06.122 +03:00 [DBG] Calculated Trend Confidence: 73.8%
+2026-03-29 22:13:06.122 +03:00 [INF] Calculated composite fatigue score: 10.5 for keyword: IA
+2026-03-29 22:13:06.122 +03:00 [INF] Calculated Pivot Score: -1.7699999999999996 for IA
+2026-03-29 22:13:06.339 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:06.340 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:06.340 +03:00 [INF] Analyzing raw scraper data: 358 characters
+2026-03-29 22:13:06.340 +03:00 [DBG] Calculated Trend Confidence: 73.9%
+2026-03-29 22:13:06.340 +03:00 [INF] Calculated composite fatigue score: 11.2 for keyword: IA
+2026-03-29 22:13:06.340 +03:00 [INF] Calculated Pivot Score: -0.7199999999999989 for IA
+2026-03-29 22:13:06.564 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:06.565 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:06.565 +03:00 [INF] Analyzing raw scraper data: 359 characters
+2026-03-29 22:13:06.565 +03:00 [DBG] Calculated Trend Confidence: 77.1%
+2026-03-29 22:13:06.565 +03:00 [INF] Calculated composite fatigue score: 13 for keyword: IA
+2026-03-29 22:13:06.565 +03:00 [INF] Calculated Pivot Score: 1.7400000000000002 for IA
+2026-03-29 22:13:06.788 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:06.788 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:06.789 +03:00 [INF] Analyzing raw scraper data: 355 characters
+2026-03-29 22:13:06.789 +03:00 [DBG] Calculated Trend Confidence: 76.9%
+2026-03-29 22:13:06.789 +03:00 [INF] Calculated composite fatigue score: 16.5 for keyword: IA
+2026-03-29 22:13:06.789 +03:00 [INF] Calculated Pivot Score: 5.050000000000001 for IA
+2026-03-29 22:13:06.999 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:07.000 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:07.000 +03:00 [INF] Analyzing raw scraper data: 358 characters
+2026-03-29 22:13:07.002 +03:00 [DBG] Calculated Trend Confidence: 75%
+2026-03-29 22:13:07.002 +03:00 [INF] Calculated composite fatigue score: 14.5 for keyword: IA
+2026-03-29 22:13:07.002 +03:00 [INF] Calculated Pivot Score: 2.459999999999999 for IA
+2026-03-29 22:13:07.209 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:07.210 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:07.211 +03:00 [INF] Analyzing raw scraper data: 355 characters
+2026-03-29 22:13:07.211 +03:00 [DBG] Calculated Trend Confidence: 74.6%
+2026-03-29 22:13:07.211 +03:00 [INF] Calculated composite fatigue score: 17.7 for keyword: IA
+2026-03-29 22:13:07.211 +03:00 [INF] Calculated Pivot Score: 5.479999999999999 for IA
+2026-03-29 22:13:07.638 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:07.638 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:07.638 +03:00 [INF] Analyzing raw scraper data: 356 characters
+2026-03-29 22:13:07.638 +03:00 [DBG] Calculated Trend Confidence: 73.6%
+2026-03-29 22:13:07.639 +03:00 [INF] Calculated composite fatigue score: 12.5 for keyword: IA
+2026-03-29 22:13:07.639 +03:00 [INF] Calculated Pivot Score: -0.5800000000000018 for IA
+2026-03-29 22:13:07.868 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:07.869 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:07.869 +03:00 [INF] Analyzing raw scraper data: 358 characters
+2026-03-29 22:13:07.869 +03:00 [DBG] Calculated Trend Confidence: 75.4%
+2026-03-29 22:13:07.869 +03:00 [INF] Calculated composite fatigue score: 11.4 for keyword: IA
+2026-03-29 22:13:07.869 +03:00 [INF] Calculated Pivot Score: -2.09 for IA
+2026-03-29 22:13:08.256 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:08.257 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:08.257 +03:00 [INF] Analyzing raw scraper data: 357 characters
+2026-03-29 22:13:08.257 +03:00 [DBG] Calculated Trend Confidence: 75.1%
+2026-03-29 22:13:08.257 +03:00 [INF] Calculated composite fatigue score: 8.9 for keyword: IA
+2026-03-29 22:13:08.257 +03:00 [INF] Calculated Pivot Score: -4.409999999999998 for IA
+2026-03-29 22:13:08.903 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:08.903 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:08.904 +03:00 [INF] Analyzing raw scraper data: 357 characters
+2026-03-29 22:13:08.904 +03:00 [DBG] Calculated Trend Confidence: 74.3%
+2026-03-29 22:13:08.904 +03:00 [INF] Calculated composite fatigue score: 11.8 for keyword: IA
+2026-03-29 22:13:08.904 +03:00 [INF] Calculated Pivot Score: -0.8499999999999996 for IA
+2026-03-29 22:13:09.460 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:09.461 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:09.461 +03:00 [INF] Analyzing raw scraper data: 357 characters
+2026-03-29 22:13:09.461 +03:00 [DBG] Calculated Trend Confidence: 74.7%
+2026-03-29 22:13:09.461 +03:00 [INF] Calculated composite fatigue score: 12.5 for keyword: IA
+2026-03-29 22:13:09.461 +03:00 [INF] Calculated Pivot Score: -0.3000000000000007 for IA
+2026-03-29 22:13:09.813 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:09.814 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:09.814 +03:00 [INF] Analyzing raw scraper data: 356 characters
+2026-03-29 22:13:09.814 +03:00 [DBG] Calculated Trend Confidence: 74.9%
+2026-03-29 22:13:09.814 +03:00 [INF] Calculated composite fatigue score: 14.2 for keyword: IA
+2026-03-29 22:13:09.814 +03:00 [INF] Calculated Pivot Score: 1.5999999999999979 for IA
+2026-03-29 22:13:10.072 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:10.072 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:10.073 +03:00 [INF] Analyzing raw scraper data: 357 characters
+2026-03-29 22:13:10.073 +03:00 [DBG] Calculated Trend Confidence: 76%
+2026-03-29 22:13:10.073 +03:00 [INF] Calculated composite fatigue score: 14.4 for keyword: IA
+2026-03-29 22:13:10.073 +03:00 [INF] Calculated Pivot Score: 2.0299999999999994 for IA
+2026-03-29 22:13:10.372 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:10.372 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:10.372 +03:00 [INF] Analyzing raw scraper data: 355 characters
+2026-03-29 22:13:10.372 +03:00 [DBG] Calculated Trend Confidence: 75.7%
+2026-03-29 22:13:10.372 +03:00 [INF] Calculated composite fatigue score: 16.9 for keyword: IA
+2026-03-29 22:13:10.372 +03:00 [INF] Calculated Pivot Score: 4.389999999999997 for IA
+2026-03-29 22:13:10.630 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:10.630 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:10.630 +03:00 [INF] Analyzing raw scraper data: 356 characters
+2026-03-29 22:13:10.630 +03:00 [DBG] Calculated Trend Confidence: 74.6%
+2026-03-29 22:13:10.630 +03:00 [INF] Calculated composite fatigue score: 14 for keyword: IA
+2026-03-29 22:13:10.630 +03:00 [INF] Calculated Pivot Score: 0.9199999999999982 for IA
+2026-03-29 22:13:10.929 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:10.929 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:10.929 +03:00 [INF] Analyzing raw scraper data: 355 characters
+2026-03-29 22:13:10.930 +03:00 [DBG] Calculated Trend Confidence: 75.1%
+2026-03-29 22:13:10.930 +03:00 [INF] Calculated composite fatigue score: 10.7 for keyword: IA
+2026-03-29 22:13:10.930 +03:00 [INF] Calculated Pivot Score: -2.730000000000002 for IA
+2026-03-29 22:13:11.194 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:11.195 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:11.195 +03:00 [INF] Analyzing raw scraper data: 358 characters
+2026-03-29 22:13:11.196 +03:00 [DBG] Calculated Trend Confidence: 74.8%
+2026-03-29 22:13:11.196 +03:00 [INF] Calculated composite fatigue score: 11.3 for keyword: IA
+2026-03-29 22:13:11.196 +03:00 [INF] Calculated Pivot Score: -2.0600000000000023 for IA
+2026-03-29 22:13:11.466 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:11.467 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:11.467 +03:00 [INF] Analyzing raw scraper data: 356 characters
+2026-03-29 22:13:11.467 +03:00 [DBG] Calculated Trend Confidence: 74.6%
+2026-03-29 22:13:11.467 +03:00 [INF] Calculated composite fatigue score: 16.9 for keyword: IA
+2026-03-29 22:13:11.467 +03:00 [INF] Calculated Pivot Score: 3.6599999999999984 for IA
+2026-03-29 22:13:11.737 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:11.738 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:11.738 +03:00 [INF] Analyzing raw scraper data: 355 characters
+2026-03-29 22:13:11.738 +03:00 [DBG] Calculated Trend Confidence: 75.1%
+2026-03-29 22:13:11.738 +03:00 [INF] Calculated composite fatigue score: 13.4 for keyword: IA
+2026-03-29 22:13:11.738 +03:00 [INF] Calculated Pivot Score: 0.23999999999999844 for IA
+2026-03-29 22:13:12.004 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:12.004 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:12.004 +03:00 [INF] Analyzing raw scraper data: 358 characters
+2026-03-29 22:13:12.004 +03:00 [DBG] Calculated Trend Confidence: 75.3%
+2026-03-29 22:13:12.004 +03:00 [INF] Calculated composite fatigue score: 10.5 for keyword: IA
+2026-03-29 22:13:12.004 +03:00 [INF] Calculated Pivot Score: -2.820000000000002 for IA
+2026-03-29 22:13:12.254 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:12.255 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:12.255 +03:00 [INF] Analyzing raw scraper data: 356 characters
+2026-03-29 22:13:12.255 +03:00 [DBG] Calculated Trend Confidence: 76.3%
+2026-03-29 22:13:12.255 +03:00 [INF] Calculated composite fatigue score: 11.1 for keyword: IA
+2026-03-29 22:13:12.255 +03:00 [INF] Calculated Pivot Score: -2.380000000000001 for IA
+2026-03-29 22:13:12.527 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:12.527 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:12.527 +03:00 [INF] Analyzing raw scraper data: 359 characters
+2026-03-29 22:13:12.527 +03:00 [DBG] Calculated Trend Confidence: 75.9%
+2026-03-29 22:13:12.527 +03:00 [INF] Calculated composite fatigue score: 12.6 for keyword: IA
+2026-03-29 22:13:12.527 +03:00 [INF] Calculated Pivot Score: -0.5699999999999985 for IA
+2026-03-29 22:13:12.982 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:12.983 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:12.983 +03:00 [INF] Analyzing raw scraper data: 358 characters
+2026-03-29 22:13:12.983 +03:00 [DBG] Calculated Trend Confidence: 75.9%
+2026-03-29 22:13:12.983 +03:00 [INF] Calculated composite fatigue score: 12.8 for keyword: IA
+2026-03-29 22:13:12.983 +03:00 [INF] Calculated Pivot Score: -0.37999999999999723 for IA
+2026-03-29 22:13:13.302 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:13.302 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:13.303 +03:00 [INF] Analyzing raw scraper data: 358 characters
+2026-03-29 22:13:13.303 +03:00 [DBG] Calculated Trend Confidence: 76.5%
+2026-03-29 22:13:13.303 +03:00 [INF] Calculated composite fatigue score: 8.7 for keyword: IA
+2026-03-29 22:13:13.303 +03:00 [INF] Calculated Pivot Score: -4.690000000000001 for IA
+2026-03-29 22:13:13.530 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:13.530 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:13.530 +03:00 [INF] Analyzing raw scraper data: 357 characters
+2026-03-29 22:13:13.530 +03:00 [DBG] Calculated Trend Confidence: 74.9%
+2026-03-29 22:13:13.530 +03:00 [INF] Calculated composite fatigue score: 10.1 for keyword: IA
+2026-03-29 22:13:13.530 +03:00 [INF] Calculated Pivot Score: -2.7600000000000033 for IA
+2026-03-29 22:13:13.724 +03:00 [INF] Processing trend analysis for keyword: IA
+2026-03-29 22:13:13.725 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:13.725 +03:00 [INF] Analyzing raw scraper data: 357 characters
+2026-03-29 22:13:13.725 +03:00 [DBG] Calculated Trend Confidence: 76%
+2026-03-29 22:13:13.725 +03:00 [INF] Calculated composite fatigue score: 12.4 for keyword: IA
+2026-03-29 22:13:13.725 +03:00 [INF] Calculated Pivot Score: 0.21999999999999886 for IA
+2026-03-29 22:13:27.970 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:27.971 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:27.971 +03:00 [INF] Analyzing raw scraper data: 356 characters
+2026-03-29 22:13:27.972 +03:00 [INF] Calculated composite fatigue score: 14 for keyword: web
+2026-03-29 22:13:30.003 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:30.003 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:30.003 +03:00 [INF] Analyzing raw scraper data: 359 characters
+2026-03-29 22:13:30.003 +03:00 [DBG] Calculated Trend Confidence: 10%
+2026-03-29 22:13:30.003 +03:00 [INF] Calculated composite fatigue score: 14.3 for keyword: web
+2026-03-29 22:13:30.003 +03:00 [INF] Calculated Pivot Score: 0.3000000000000007 for web
+2026-03-29 22:13:33.152 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:33.152 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:33.153 +03:00 [INF] Analyzing raw scraper data: 356 characters
+2026-03-29 22:13:33.153 +03:00 [DBG] Calculated Trend Confidence: 20%
+2026-03-29 22:13:33.153 +03:00 [INF] Calculated composite fatigue score: 16 for keyword: web
+2026-03-29 22:13:33.153 +03:00 [INF] Calculated Pivot Score: 1.8499999999999996 for web
+2026-03-29 22:13:33.744 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:33.744 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:33.744 +03:00 [INF] Analyzing raw scraper data: 361 characters
+2026-03-29 22:13:33.745 +03:00 [DBG] Calculated Trend Confidence: 71.5%
+2026-03-29 22:13:33.745 +03:00 [INF] Calculated composite fatigue score: 12.2 for keyword: web
+2026-03-29 22:13:33.745 +03:00 [INF] Calculated Pivot Score: -2.5666666666666664 for web
+2026-03-29 22:13:34.348 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:34.348 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:34.348 +03:00 [INF] Analyzing raw scraper data: 357 characters
+2026-03-29 22:13:34.348 +03:00 [DBG] Calculated Trend Confidence: 79.6%
+2026-03-29 22:13:34.348 +03:00 [INF] Calculated composite fatigue score: 13.7 for keyword: web
+2026-03-29 22:13:34.348 +03:00 [INF] Calculated Pivot Score: -0.4250000000000007 for web
+2026-03-29 22:13:34.846 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:34.846 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:34.846 +03:00 [INF] Analyzing raw scraper data: 357 characters
+2026-03-29 22:13:34.846 +03:00 [DBG] Calculated Trend Confidence: 80.1%
+2026-03-29 22:13:34.846 +03:00 [INF] Calculated composite fatigue score: 8.7 for keyword: web
+2026-03-29 22:13:34.846 +03:00 [INF] Calculated Pivot Score: -5.340000000000002 for web
+2026-03-29 22:13:35.097 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:35.097 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:35.097 +03:00 [INF] Analyzing raw scraper data: 358 characters
+2026-03-29 22:13:35.097 +03:00 [DBG] Calculated Trend Confidence: 75.9%
+2026-03-29 22:13:35.097 +03:00 [INF] Calculated composite fatigue score: 16.8 for keyword: web
+2026-03-29 22:13:35.097 +03:00 [INF] Calculated Pivot Score: 3.650000000000002 for web
+2026-03-29 22:13:35.511 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:35.512 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:35.512 +03:00 [INF] Analyzing raw scraper data: 359 characters
+2026-03-29 22:13:35.512 +03:00 [DBG] Calculated Trend Confidence: 75.1%
+2026-03-29 22:13:35.512 +03:00 [INF] Calculated composite fatigue score: 12.5 for keyword: web
+2026-03-29 22:13:35.512 +03:00 [INF] Calculated Pivot Score: -1.1714285714285726 for web
+2026-03-29 22:13:35.804 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:35.805 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:35.805 +03:00 [INF] Analyzing raw scraper data: 357 characters
+2026-03-29 22:13:35.805 +03:00 [DBG] Calculated Trend Confidence: 75.6%
+2026-03-29 22:13:35.805 +03:00 [INF] Calculated composite fatigue score: 16.5 for keyword: web
+2026-03-29 22:13:35.805 +03:00 [INF] Calculated Pivot Score: 2.9749999999999996 for web
+2026-03-29 22:13:36.048 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:36.049 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:36.049 +03:00 [INF] Analyzing raw scraper data: 355 characters
+2026-03-29 22:13:36.049 +03:00 [DBG] Calculated Trend Confidence: 75.4%
+2026-03-29 22:13:36.049 +03:00 [INF] Calculated composite fatigue score: 16.6 for keyword: web
+2026-03-29 22:13:36.049 +03:00 [INF] Calculated Pivot Score: 2.7444444444444454 for web
+2026-03-29 22:13:36.246 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:36.247 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:36.247 +03:00 [INF] Analyzing raw scraper data: 358 characters
+2026-03-29 22:13:36.247 +03:00 [DBG] Calculated Trend Confidence: 75.3%
+2026-03-29 22:13:36.247 +03:00 [INF] Calculated composite fatigue score: 10.2 for keyword: web
+2026-03-29 22:13:36.247 +03:00 [INF] Calculated Pivot Score: -3.9300000000000015 for web
+2026-03-29 22:13:36.811 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:36.811 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:36.812 +03:00 [INF] Analyzing raw scraper data: 358 characters
+2026-03-29 22:13:36.812 +03:00 [DBG] Calculated Trend Confidence: 74.2%
+2026-03-29 22:13:36.812 +03:00 [INF] Calculated composite fatigue score: 17.8 for keyword: web
+2026-03-29 22:13:36.812 +03:00 [INF] Calculated Pivot Score: 4.050000000000001 for web
+2026-03-29 22:13:37.062 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:37.062 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:37.063 +03:00 [INF] Analyzing raw scraper data: 359 characters
+2026-03-29 22:13:37.063 +03:00 [DBG] Calculated Trend Confidence: 73.2%
+2026-03-29 22:13:37.063 +03:00 [INF] Calculated composite fatigue score: 11.3 for keyword: web
+2026-03-29 22:13:37.063 +03:00 [INF] Calculated Pivot Score: -2.799999999999999 for web
+2026-03-29 22:13:37.301 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:37.302 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:37.302 +03:00 [INF] Analyzing raw scraper data: 358 characters
+2026-03-29 22:13:37.302 +03:00 [DBG] Calculated Trend Confidence: 72.9%
+2026-03-29 22:13:37.302 +03:00 [INF] Calculated composite fatigue score: 14.4 for keyword: web
+2026-03-29 22:13:37.302 +03:00 [INF] Calculated Pivot Score: 0.3899999999999988 for web
+2026-03-29 22:13:37.505 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:37.506 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:37.506 +03:00 [INF] Analyzing raw scraper data: 359 characters
+2026-03-29 22:13:37.506 +03:00 [DBG] Calculated Trend Confidence: 73.2%
+2026-03-29 22:13:37.506 +03:00 [INF] Calculated composite fatigue score: 13 for keyword: web
+2026-03-29 22:13:37.506 +03:00 [INF] Calculated Pivot Score: -0.8499999999999979 for web
+2026-03-29 22:13:38.171 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:38.172 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:38.172 +03:00 [INF] Analyzing raw scraper data: 357 characters
+2026-03-29 22:13:38.172 +03:00 [DBG] Calculated Trend Confidence: 75.2%
+2026-03-29 22:13:38.172 +03:00 [INF] Calculated composite fatigue score: 12 for keyword: web
+2026-03-29 22:13:38.172 +03:00 [INF] Calculated Pivot Score: -2.2799999999999976 for web
+2026-03-29 22:13:38.450 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:38.450 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:38.450 +03:00 [INF] Analyzing raw scraper data: 359 characters
+2026-03-29 22:13:38.450 +03:00 [DBG] Calculated Trend Confidence: 74.9%
+2026-03-29 22:13:38.450 +03:00 [INF] Calculated composite fatigue score: 12 for keyword: web
+2026-03-29 22:13:38.450 +03:00 [INF] Calculated Pivot Score: -2.110000000000003 for web
+2026-03-29 22:13:38.661 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:38.661 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:38.661 +03:00 [INF] Analyzing raw scraper data: 358 characters
+2026-03-29 22:13:38.661 +03:00 [DBG] Calculated Trend Confidence: 75.1%
+2026-03-29 22:13:38.661 +03:00 [INF] Calculated composite fatigue score: 15.3 for keyword: web
+2026-03-29 22:13:38.661 +03:00 [INF] Calculated Pivot Score: 1.6400000000000006 for web
+2026-03-29 22:13:38.871 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:38.872 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:38.872 +03:00 [INF] Analyzing raw scraper data: 356 characters
+2026-03-29 22:13:38.872 +03:00 [DBG] Calculated Trend Confidence: 75.1%
+2026-03-29 22:13:38.872 +03:00 [INF] Calculated composite fatigue score: 7.3 for keyword: web
+2026-03-29 22:13:38.872 +03:00 [INF] Calculated Pivot Score: -6.6400000000000015 for web
+2026-03-29 22:13:39.076 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:39.076 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:39.077 +03:00 [INF] Analyzing raw scraper data: 359 characters
+2026-03-29 22:13:39.077 +03:00 [DBG] Calculated Trend Confidence: 73.1%
+2026-03-29 22:13:39.077 +03:00 [INF] Calculated composite fatigue score: 12.5 for keyword: web
+2026-03-29 22:13:39.077 +03:00 [INF] Calculated Pivot Score: -0.4900000000000002 for web
+2026-03-29 22:13:39.294 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:39.294 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:39.294 +03:00 [INF] Analyzing raw scraper data: 359 characters
+2026-03-29 22:13:39.295 +03:00 [DBG] Calculated Trend Confidence: 75%
+2026-03-29 22:13:39.295 +03:00 [INF] Calculated composite fatigue score: 12.5 for keyword: web
+2026-03-29 22:13:39.295 +03:00 [INF] Calculated Pivot Score: 0.03999999999999915 for web
+2026-03-29 22:13:39.504 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:39.505 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:39.505 +03:00 [INF] Analyzing raw scraper data: 356 characters
+2026-03-29 22:13:39.505 +03:00 [DBG] Calculated Trend Confidence: 75.4%
+2026-03-29 22:13:39.505 +03:00 [INF] Calculated composite fatigue score: 17.6 for keyword: web
+2026-03-29 22:13:39.505 +03:00 [INF] Calculated Pivot Score: 4.91 for web
+2026-03-29 22:13:39.727 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:39.728 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:39.728 +03:00 [INF] Analyzing raw scraper data: 358 characters
+2026-03-29 22:13:39.728 +03:00 [DBG] Calculated Trend Confidence: 74.7%
+2026-03-29 22:13:39.728 +03:00 [INF] Calculated composite fatigue score: 8.9 for keyword: web
+2026-03-29 22:13:39.728 +03:00 [INF] Calculated Pivot Score: -3.889999999999999 for web
+2026-03-29 22:13:39.952 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:39.953 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:39.953 +03:00 [INF] Analyzing raw scraper data: 359 characters
+2026-03-29 22:13:39.953 +03:00 [DBG] Calculated Trend Confidence: 73.7%
+2026-03-29 22:13:39.953 +03:00 [INF] Calculated composite fatigue score: 8.7 for keyword: web
+2026-03-29 22:13:39.953 +03:00 [INF] Calculated Pivot Score: -3.6799999999999997 for web
+2026-03-29 22:13:49.253 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:49.254 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:49.254 +03:00 [INF] Analyzing raw scraper data: 359 characters
+2026-03-29 22:13:49.254 +03:00 [DBG] Calculated Trend Confidence: 73.3%
+2026-03-29 22:13:49.254 +03:00 [INF] Calculated composite fatigue score: 12.4 for keyword: web
+2026-03-29 22:13:49.254 +03:00 [INF] Calculated Pivot Score: 0.5900000000000016 for web
+2026-03-29 22:13:49.716 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:49.716 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:49.717 +03:00 [INF] Analyzing raw scraper data: 358 characters
+2026-03-29 22:13:49.717 +03:00 [DBG] Calculated Trend Confidence: 73.3%
+2026-03-29 22:13:49.717 +03:00 [INF] Calculated composite fatigue score: 9 for keyword: web
+2026-03-29 22:13:49.717 +03:00 [INF] Calculated Pivot Score: -2.919999999999998 for web
+2026-03-29 22:13:49.981 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:49.981 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:49.982 +03:00 [INF] Analyzing raw scraper data: 357 characters
+2026-03-29 22:13:49.983 +03:00 [DBG] Calculated Trend Confidence: 74.2%
+2026-03-29 22:13:49.983 +03:00 [INF] Calculated composite fatigue score: 9.9 for keyword: web
+2026-03-29 22:13:49.983 +03:00 [INF] Calculated Pivot Score: -2.1899999999999995 for web
+2026-03-29 22:13:50.260 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:50.260 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:50.261 +03:00 [INF] Analyzing raw scraper data: 354 characters
+2026-03-29 22:13:50.261 +03:00 [DBG] Calculated Trend Confidence: 74.9%
+2026-03-29 22:13:50.261 +03:00 [INF] Calculated composite fatigue score: 15.9 for keyword: web
+2026-03-29 22:13:50.261 +03:00 [INF] Calculated Pivot Score: 4.35 for web
+2026-03-29 22:13:50.797 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:50.797 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:50.797 +03:00 [INF] Analyzing raw scraper data: 358 characters
+2026-03-29 22:13:50.797 +03:00 [DBG] Calculated Trend Confidence: 73.6%
+2026-03-29 22:13:50.797 +03:00 [INF] Calculated composite fatigue score: 11.7 for keyword: web
+2026-03-29 22:13:50.797 +03:00 [INF] Calculated Pivot Score: -0.2400000000000002 for web
+2026-03-29 22:13:51.049 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:51.049 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:51.050 +03:00 [INF] Analyzing raw scraper data: 354 characters
+2026-03-29 22:13:51.050 +03:00 [DBG] Calculated Trend Confidence: 73.6%
+2026-03-29 22:13:51.050 +03:00 [INF] Calculated composite fatigue score: 13.8 for keyword: web
+2026-03-29 22:13:51.050 +03:00 [INF] Calculated Pivot Score: 1.8900000000000006 for web
+2026-03-29 22:13:51.498 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:51.498 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:51.499 +03:00 [INF] Analyzing raw scraper data: 356 characters
+2026-03-29 22:13:51.499 +03:00 [DBG] Calculated Trend Confidence: 74.3%
+2026-03-29 22:13:51.499 +03:00 [INF] Calculated composite fatigue score: 11.2 for keyword: web
+2026-03-29 22:13:51.499 +03:00 [INF] Calculated Pivot Score: -1.2200000000000024 for web
+2026-03-29 22:13:51.694 +03:00 [INF] Processing trend analysis for keyword: web
+2026-03-29 22:13:51.695 +03:00 [WRN] Python execution failed. Falling back to internal simulation for prototype.
+System.IO.FileNotFoundException: Script not found: C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py
+File name: 'C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\src\Execution\Scripts\scraper.py'
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteInternalAsync(String executable, String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 51
+   at AntiTrendForecast.Execution.Python.PythonRunnerService.ExecuteScriptAsync(String scriptPath, String arguments) in C:\Users\7915t\Documents\V_Project\AntiTrendForecast\AntiTrendForecast\src\Execution\Python\PythonRunnerService.cs:line 28
+2026-03-29 22:13:51.695 +03:00 [INF] Analyzing raw scraper data: 359 characters
+2026-03-29 22:13:51.695 +03:00 [DBG] Calculated Trend Confidence: 75.2%
+2026-03-29 22:13:51.695 +03:00 [INF] Calculated composite fatigue score: 13 for keyword: web
+2026-03-29 22:13:51.696 +03:00 [INF] Calculated Pivot Score: 0.34999999999999964 for web
+2026-03-29 22:15:21.975 +03:00 [INF] Anti-Trend Forecast Engine application (WPF) initialized.

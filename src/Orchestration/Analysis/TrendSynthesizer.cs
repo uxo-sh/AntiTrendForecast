@@ -1,5 +1,8 @@
 using AntiTrendForecast.Execution.Models;
 using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace AntiTrendForecast.Orchestration.Analysis;
 
@@ -30,28 +33,28 @@ public class TrendSynthesizer : ITrendSynthesizer
     public double CalculateConfidence(IEnumerable<TrendData> history)
     {
         var list = history.ToList();
-        if (!list.Any()) return 0;
+        if (!list.Any()) return 5.0; // Initial seed confidence
 
-        // Base confidence: 15% per data point, max 45% (Requires more points for 'High' confidence)
-        double volumeScore = Math.Min(list.Count * 15.0, 45.0);
+        // Base confidence: 10% per data point, max 40% (Requires 4 points for base maturity)
+        double volumeScore = Math.Min(list.Count * 10.0, 40.0);
 
         // Stability score: Lower variance in fatigue results = higher confidence
         double stabilityScore = 0;
-        if (list.Count > 1)
+        if (list.Count > 2) // Require at least 3 points for stability bonus
         {
             var values = list.Select(h => h.FatigueIndex).ToList();
             double avg = values.Average();
             double sumOfSquares = values.Sum(v => Math.Pow(v - avg, 2));
             double stdDev = Math.Sqrt(sumOfSquares / values.Count);
 
-            // Stability is max 35% if stdDev is 0. 
-            // This caps max confidence at 80% for small identical datasets (like instant re-analysis)
-            stabilityScore = Math.Max(0, 35.0 - (stdDev * 3.0));
+            // Stability is max 45% if stdDev is 0. 
+            // Total max = 40 + 45 = 85% (Verified)
+            stabilityScore = Math.Max(0, 45.0 - (stdDev * 4.0));
         }
 
         double finalScore = Math.Round(volumeScore + stabilityScore, 1);
         _logger.LogDebug("Calculated Trend Confidence: {Score}%", finalScore);
         
-        return finalScore;
+        return Math.Clamp(finalScore, 5, 100);
     }
 }
